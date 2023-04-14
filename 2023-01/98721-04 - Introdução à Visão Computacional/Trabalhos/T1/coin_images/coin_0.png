@@ -1,0 +1,1956 @@
+<!--?php include($setApplicationMainDir.'libs/prepare/404.php'); ?-->
+<!DOCTYPE html>
+<html ng-app="ecompletoApp" ng-controller="ecompletoCtlr" ng-cloak lang="pt-br">
+<!--  -->
+<head>
+    <!-- Arquivo para replicação CSS para todas as lojas V1 -->
+    <link rel="preload" as="style" href="https://www.ecompletocdn.com.br/loja_core/v1/libs/css/unificado.css" type="text/css" charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5"/>
+    <meta name="fragment" content="!">
+    <base href="https://www.numismaticavieira.com.br/">
+    <link rel="SHORTCUT ICON" href="/favicons/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#968461">
+    <meta name="msapplication-TileColor" content="#968461">
+    <meta name="theme-color" content="#968461">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="application-name" content="ecompleto">
+    <link rel="canonical" href="https://www.numismaticavieira.com.br/404.php"/>
+    <!-- base -->
+    <title></title>
+    <meta name="description" itemprop="description" content=""/>
+    <meta name="keywords" itemprop="keywords" content=""/>
+    <meta name="url" content="https://www.numismaticavieira.com.br/"/>
+    <meta name="copyright" content="www.e-completo.com.br"/>
+    <meta name="author" content="E-COMPLETO"/>
+    <!-- configuracoes adicionais -->
+    <meta name="classification" content="Business">
+    <meta name="rating" content="general"/>
+    <meta name="country" content="Brazil"/>
+    <meta name="geo.country" content="BR"/>
+    <!-- configuracoes para redes sociais -->
+    <meta property="og:url" content="https://www.numismaticavieira.com.br/404.php"/>
+        <meta property="og:title" content=""/>
+    <meta property="og:site_name" content="Numismática Vieira"/>
+        <meta property="og:description" content=""/>
+    <meta property="og:type" content="http://schema.org/AboutPage"/>
+    <meta property="og:image" content="https://www.numismaticavieira.com.br/templates/default/images/logo.png"/>
+        <!--INICIO TAGS MANAGER 8 - 404.php --><!-- loja  1737 1272  --><meta name="google-site-verification" content="eo3Q2fkOR7Fhbn4KLgnzlIMHzOcUWK53DMCZvRAC4hw" />
+<!-- loja  1571 1272  --><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SP3Q2WQFNQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SP3Q2WQFNQ');
+</script>
+<!--FIM TAGS MANAGER-->                            <!-- css -->
+    <style>
+        /* CSS HEAD */
+*, *:before, *:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+*{outline:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-transition:background 0.3s ease-in-out;-moz-transition:background 0.3s ease-in-out;-ms-transition:background 0.3s ease-in-out;-o-transition:background 0.3s ease-in-out;transition:background 0.3s ease-in-out}
+body{color:#000;font-size:62.5%;font-family:"latoregular", Helvetica, Arial, sans-serif;word-wrap: break-word;}
+fieldset{border:0;margin:0;padding:0}
+figure{margin:0;text-align:center}
+figure a{overflow:hidden;text-indent:-5000px}
+@font-face{font-family:'matriz';src:url('templates/default/css/fonts/matriz.eot?yyo9cx');src:url('templates/default/css/fonts/matriz.eot?yyo9cx#iefix') format('embedded-opentype'),url('templates/default/css/fonts/matriz.ttf?yyo9cx') format('truetype'),url('templates/default/css/fonts/matriz.woff?yyo9cx') format('woff'),url('templates/default/css/fonts/matriz.svg?yyo9cx#matriz') format('svg');font-weight:normal;font-style:normal;font-display: swap}
+@font-face{font-family:'open_sansregular';src:url('templates/default/css/fonts/opensans-regular-webfont.eot');src:url('templates/default/css/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),url('templates/default/css/fonts/opensans-regular-webfont.woff2') format('woff2'),url('templates/default/css/fonts/opensans-regular-webfont.woff') format('woff'),url('templates/default/css/fonts/opensans-regular-webfont.ttf') format('truetype'),url('templates/default/css/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');font-weight:normal;font-style:normal;font-display: swap}
+[class^="icon-"], [class*=" icon-"]{font-family:'matriz','ecompleto','open_sansregular',Tahoma,Arial,Helvetica,sans-serif !important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+img,picture,video,embed{max-width:100%}
+nav ul, nav li{margin:0;padding:0}
+strong,b{font-family:"latoregular",sans-serif}
+.container,.f_creditos,.f_bandeiras,.f_rodape{margin:0 auto;max-width:1200px}
+#identifica-afiliado{
+background:#333;
+bottom:0;
+color:#fff;
+font-size:.85rem;
+left:0;
+opacity:.9;
+padding:1rem;
+position:fixed;
+text-align:center;
+width:100%;
+z-index:5
+}
+.m-conta a::before {
+    content: '\e90e';
+    font-family: 'ecompleto' !important;
+    position: absolute;
+    left: -0.7rem;
+    font-size: 1.5rem !important;
+	color: #968461;
+}
+#site-seguro{display:none}
+.superbanner{margin-top:0;position:relative;z-index:0}
+.superbanner.desktop figure{left:0;position:relative;width:100%}
+.coluna{
+    /*border:.063rem dotted #cdcdcd;*/
+    float:left;
+    margin-bottom:3rem;
+    margin-right:4%; /* 24 / 1200px */
+    min-height:36rem;
+    min-width:16.5rem;
+    padding:.15rem;
+    position:relative;
+    text-align:center;
+    width:22%;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -ms-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+    transition:all 0.4s ease-in-out;
+}
+.vitrine{
+    font-family:"latoregular", Tahoma, Arial, Helvetica, sans-serif;
+    overflow:hidden;
+    padding:2rem 0 1rem;
+    position:relative;
+    width:100%;
+}
+.vitrine h2{
+    border-top:.063rem dotted #ccc;
+    color:#000;
+    font-size:.9rem;
+    margin:0 0 .5rem;
+    min-height:6.4rem;
+    padding:1rem 1rem 0;
+	word-wrap: break-word;
+}
+.vitrine h2 a,#search_suggestion .labelproduto{
+    color:#666666;
+    text-decoration:none;
+}
+.vitrine figure {
+    background-color:#fff;
+    height:17rem;
+}
+.vitrine figure a {
+    display:table-cell;
+    height:17rem;
+    vertical-align:middle;
+    text-align:center;
+    width:100vmax;
+}
+.vitrine img {
+    max-height:17rem;
+}
+.v_tarjas {
+    position:absolute;
+}
+/* header */
+.header{
+    height:auto;
+    width:100%
+}
+.h_cabecalho{
+    min-height:11rem;
+    position:relative;
+    width:100%
+}
+.h_logo {
+    float: left;
+    left: 0;
+    margin: 1.5rem 0 0 0;
+    position: relative;
+    width: 28rem;
+    z-index: 97;
+}
+#h_promocao{
+    background-color:#dcd8d2;
+    height:2.5rem;
+    left:0;
+    position:absolute;
+    top:0;
+    width:100%
+}
+#h_promocao:before {
+    background-color:#dcd8d2;
+    border-radius:50% / 20px;
+    bottom:0;
+    box-shadow:rgba(0, 0, 0, 0.15) 0 -.25rem .125rem;
+    clip:rect(-20px, auto, 0, 0);
+    content:'';
+    height:2.19rem;
+    left:0;
+    margin-top:2.5rem;
+    position:absolute;
+    right:0;
+    top:0
+}
+
+/* telefone */
+.h_telefone {
+    clear: both;
+    font-family: "latoregular", arial, helvetica, sans-serif;
+    font-size: .7rem;
+    padding: 0;
+    position: absolute;
+    text-align: left;
+    top: 3.1rem;
+    right: 20rem;
+    color: #666666;
+}
+.h_telefone li{
+    display:table-cell;
+    height:3.88rem;
+    text-align:right;
+    vertical-align:middle;
+    width:27.5rem
+}
+.h_telefone strong{
+    font-size:.8rem
+}
+.h_telefone dl{
+    margin:.1rem 0
+}
+.h_telefone dl strong{
+    font-size:.8rem
+}
+.h_telefone strong span{
+    font-weight:100
+}
+.h_telefone .new_tel_ddd{
+    font-size:.8rem
+}
+.h_telefone .new_tel_telefone{
+    font-size:1rem;
+    font-weight:700
+}
+.f_aviso{
+    color:#787878
+}
+.f_whats{
+    margin-bottom: .063rem;
+    margin-top: .3rem;
+}
+.f_whats:before,.h_telefone .f_whats:after,.c-contato .f_whats:after{
+    color:#78b843;
+    /*content:"\e907";*/
+    font-family:"matriz",sans-serif;
+    font-size:1.4rem;
+    margin:.063rem .063rem 0 0;
+    position:absolute
+}
+.f_whats span:first-child{
+    padding-left: 1.9rem;
+}
+.f_whats strong:nth-child(2){
+	display:none;
+}
+.h_telefone .f_whats,.c-contato .f_whats:after{
+    margin-top:0
+}
+.h_telefone .f_whats:after,.c-contato .f_whats:after{
+    font-size:1rem;
+    margin:-.15rem 0 0 .3rem
+}
+.h_telefone .f_whats:before,.c-contato .f_whats:before{
+    content:''
+}
+.h_telefone .f_whats span:first-child,.c-contato .f_whats span:first-child{
+    padding-left:0
+}
+.homeBoasVindas{
+    display:inline-block;
+    height:.75rem;
+    margin-left:.32rem;
+    outline:none;
+    width:1rem
+}
+.h_boasvindas{
+    color:#000;
+    font:.938rem "typo_round_regular_demoRg",Arial, Helvetica, sans-serif;
+    padding:0 2rem 0 0;
+    text-align:right;
+    /*width:410px;*/
+}
+.h_boasvindas a, .h_boasvindas a:hover{
+    color:#000;
+    font-weight:bold;
+    text-decoration:none;
+    text-transform:uppercase
+}
+.h_boasvindas a:hover{
+    color:#fd1298
+}
+.h_boasvindas div:after{
+    color:#000;
+    content:"\e902";
+    font-family:'matriz',sans-serif;
+    font-size:1.2rem;
+    margin-left:.25rem;
+    margin-top:.125rem;
+    position:absolute
+}
+/* menu principal */
+.h_menu{
+    clear:both;
+    position:relative;
+    width:100%;
+    z-index:9
+}
+#h_menubg {
+	background: #968461; /* Old browsers */
+background: -moz-linear-gradient(top, #968461 0%, #b19e7a 9%, #8f7b5a 89%, #413011 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #968461 0%,#b19e7a 9%,#8f7b5a 89%,#413011 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #968461 0%,#b19e7a 9%,#8f7b5a 89%,#413011 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#968461', endColorstr='#413011',GradientType=0 ); /* IE6-9 */
+    height: 5.612rem;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    margin: auto;
+    left: 0;
+}
+.h_menu ul{
+
+}
+.mptodos {
+    width: 7rem;
+}
+.h_menu li {
+    display: table-cell;
+    font-size: 1rem;
+    position: relative;
+    height: 5.6rem;
+}
+.h_menu li a{
+    color:#002e66;
+    display:block;
+    padding:3.65rem .3rem .70rem;
+    text-decoration:none;
+}
+.h_menu li a:hover{
+    color:#000
+}
+.pai.mpSub {
+    width: 100%;
+}
+/*span.icon-menu{
+    display:none
+}*/
+/* categorias */
+.MenuPrincipal {
+    display: table;
+    text-align: center;
+	width: 100%;
+}
+.MenuPrincipal li a.icones {
+    color: #fff;
+    display: block;
+    font: 0.75rem 'open_sansregular',Arial,Helvetica,sans-serif;
+        line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    height: 5.6rem;
+    line-height: .8rem;
+    position: relative;
+}
+.MenuPrincipal li a.icones:hover,.MenuPrincipal li:hover > a.icones{
+	background:#413011;
+    color:#fff;
+}
+li.avo:before{
+	color: #fff;
+    position: absolute;
+    top: 10px;
+	font-family:'casafrentista';
+	font-size: 32px;
+	display:block;
+	width:100%;
+	text-align:center;
+	z-index:999
+}
+.mp68438::before {
+	content: "";
+	background:url(templates/default/images/icn_moedas_nac.png) center top no-repeat;
+	height: 32px;
+}
+.mp68445::before{
+	content: "";
+	background:url(templates/default/images/icn_moedas_es.png) center top no-repeat;
+	height: 32px;
+}
+.mp73424::before {
+	content: "";
+	background:url(templates/default/images/icn_setmoedas.png) center top no-repeat;
+	height: 32px;
+}
+.mp73994::before {
+	content: "";
+	background:url(templates/default/images/icn_medal.png) center top no-repeat;
+	height: 32px;
+}
+.mp68733::before {
+	content: "";
+	background:url(templates/default/images/icn_cedula_es.png) center top no-repeat;
+	height: 32px;
+}
+.mp68732::before {
+	content: "";
+	background:url(templates/default/images/icn_cedula_nac.png) center top no-repeat;
+	height: 36px;
+}
+.mp73845::before {
+	content: "";
+	background:url(templates/default/images/icn_cedulas.png) center top no-repeat;
+	height: 32px;
+}
+.mp73235::before {
+	content: "";
+	background:url(templates/default/images/icn_catalogo.png) center top no-repeat;
+	height: 32px;
+}
+.mptodos::before {content: "\e916";}
+
+li.mp120464, li.mp104032, li.mp104019, li.mp112007, li.mp133780, li.mp104038, li.mp104033{
+	display: none;
+}
+
+
+/* submenu categorias */
+.avo:hover ul{
+    display:block
+}
+.mpSubmenu {
+    background:#413011;
+    color: #ccc;
+    display: none;
+    margin: 0 auto;
+    padding: 1.25rem 1rem 1.63rem;
+    position: absolute;
+    text-align: left;
+    width: 18rem;
+    z-index: 99999;
+    box-shadow: .3rem .3rem .3rem rgba(0, 0, 0, 0.5);
+}
+.mptodos .mpSubmenu {
+    width: 13rem;
+}
+.mpSubmenu li{
+    background:none;
+    display:block;
+    float:none;
+    height:auto
+}
+.mpSubmenu li a{
+    color:#ccc;
+    display:block;
+    font:0.75rem "open_sansregular",Tahoma,Geneva,sans-serif;
+    padding:.25rem 1.45rem .25rem .63rem
+}
+.mpSubmenu li a:hover{
+    background:#8F7B5A;
+    color:#fff;
+	border-radius:.3rem;
+}
+.mpSubmenu li dd a{
+    border:none;
+    color:#000 !important;
+    font:0.688rem "open_sansregular",Tahoma,Geneva,sans-serif !important;
+    margin:0;
+    height:auto;
+    padding:.2rem .75rem .2rem 1.38rem !important
+}
+.mpSubmenu li dd a:hover{
+    background:#1cc9c9 !important;
+    color:#fff !important;
+    -webkit-transition:all 0.1s ease-in-out;
+    -moz-transition:all 0.1s ease-in-out;
+    -ms-transition:all 0.1s ease-in-out;
+    -o-transition:all 0.1s ease-in-out;
+    transition:all 0.1s ease-in-out
+}
+.pai dl{
+    background-color:#eae7e2;
+    display:none;
+    padding:.75rem 0 1.625rem;
+    position:relative
+}
+.pai dl:after {
+    border-left:.625rem solid transparent;
+    border-right:.625rem solid transparent;
+    border-top:.625rem solid #1cc9c9;
+    content:'';
+    position:absolute;
+    top:0;
+    right:3em;
+    width:0
+}
+.pai:hover dl{
+    display:block;
+    margin-left:4.125rem;
+    margin-top:-.063rem;
+    position:absolute;
+    width:11.875rem
+}
+.pai:hover > a{
+    background:#1cc9c9;
+    color:#fff !important
+}
+.pai dl dd a:before{
+    content:"\25AA";
+    font-size:.75rem;
+    margin-left:-.563rem;
+    margin-top:-.063rem;
+    position:absolute
+}
+a.paiSelect:hover{
+    color:#000 !important
+}
+/* Menu Todas categorias */
+.MenuPrincipal #mptodos.mpSubmenu {
+    width: 1200px;
+    column-count: 5;
+}
+.mptodos li {
+    width: 100%;
+}
+#mptodos li ul {
+    background: none;
+    position: relative;
+    box-shadow: none;
+    padding: .5rem;
+}
+.mptodos li a {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: .8rem;
+}
+.mptodos li ul li a {
+    color: #ccc;
+    font-size: .75rem;
+    font-weight: normal;
+}
+/* menu secundário */
+/* carrinho */
+.area_link {
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    z-index: 0;
+    margin: -8px 0 0 -14px;
+	display: none;
+}
+.meu_carrinho, .meu_cadastro{
+    font:.75rem "latoregular",Verdana, Tahoma, Geneva, sans-serif;
+    padding:0 !important
+}
+.meu_cadastro a,.meu_carrinho a{
+    color:#999;
+    font-size:.69rem;
+    padding:0 0 0 .38rem;
+    text-decoration:none
+}
+#meucarrinho{
+    color:#000;
+    height:3.57rem;
+    margin:0 0 0 1rem;
+    padding:0;
+    text-align:center;
+    width:2.88rem;
+    z-index:9 !important
+}
+.meu_carrinho{
+    color:#933649;
+    font:.75rem "latoregular",Verdana,Arial,Helvetica,sans-serif
+}
+#meucarrinho .meu_carrinho{
+    color:#fff;
+    font:.63rem "latoregular",Verdana,Arial,Helvetica,sans-serif;
+    margin-left:-1.3rem;
+    text-transform:uppercase
+}
+.meu_carrinho_open_floater::before {
+    color: #968461;
+    content: "\e90c";
+    font-family: 'casafrentista',sans-serif;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+.meu_carrinho_open_floater:hover::before{
+	color:#647873;	
+	font-size: 2.2rem;
+	-webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -ms-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+    transition:all 0.4s ease-in-out
+}
+.fixo .meu_carrinho_open_floater:before{
+    color:#fff
+}
+.meu_carrinho_open_floater a{
+    overflow:hidden;
+    text-indent:-5000px
+}
+
+
+
+.meu_carrinho.meu_carrinho_open_floater a {
+    display: block !important;
+    height: 2.5rem;
+    margin-left: -0.5rem;
+    margin-top: -2.4rem !important;
+    position: absolute;
+    z-index: 2;
+    width: 2rem;
+}
+
+.meu_carrinho.meu_carrinho_open_floater dd a{
+    height:auto;
+    margin-top:0 !important
+}
+.meu_carrinho br{
+    display:none
+}
+.meu_carrinho .chaves_carrinho{
+    display:none
+}
+.meu_carrinho #num_itens_carrinho {
+    background-color:#647873 ;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    font: 1rem "latoregular",Verdana,Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    width: 1.5rem;
+}
+.fixo .meu_carrinho #num_itens_carrinho{
+    background-color:#015b5b
+}
+.meu_carrinho span {
+    font-size: 0;
+    height: 2.44rem;
+    margin: 1.2rem 0;
+    overflow: hidden;
+    position: absolute;
+    top: .13rem;
+}
+.fixo .meu_carrinho span{
+    top:0
+}
+.meu_carrinho #mc_floater span{
+    position:relative
+}
+#meucarrinho dt span{
+    margin:0
+}
+.meu_carrinho a:hover, .meu_cadastro a:hover{
+    color:#000;
+    text-decoration:underline
+}
+span.icon-user{
+    display:none
+}
+.h_menuSecundario {
+    color: #000;
+    font-size: 1rem;
+    height: 3.25rem;
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    top: 4.2rem;
+}
+.MenuServicos{
+    position:relative
+}
+.MenuServicos a{
+    color:#666666;
+    display:inline-block;
+    font-family:"latoregular", arial, helvetica, sans-serif;
+    font-size:.8rem;
+    line-height:.85rem;
+    text-align:center;
+    text-decoration:none;
+    padding:0 .5rem 0 .44rem
+}
+.MenuServicos a:hover{
+    text-decoration:none;
+	color:#647873;
+}
+.h_menuSecundario ul{
+    margin:0.5rem auto 0;
+    text-align:right
+
+}
+.h_menuSecundario ul li.MenuServicos ul{
+    padding-right:0;
+}
+.h_menuSecundario ul li{
+    display:inline-block;
+    padding:0
+}
+.h_menuSecundario ul li.MenuServicos li:nth-child(1){
+	background-color:#fff
+}
+.h_menuSecundario ul li.MenuServicos li:nth-child(2){
+    
+}
+.h_menuSecundario ul li.MenuServicos li:nth-child(3){
+    background-color:#fff
+}
+.h_menuSecundario ul li.MenuServicos ul li{
+    margin:0 -.15rem;
+    padding:1.2rem .5rem .3rem;
+}
+.h_menuSecundario ul li.MenuServicos li:nth-child(1) a{
+    width:6.5rem
+}
+.h_menuSecundario ul li.MenuServicos li:nth-child(2) a{
+    width:8.5rem
+}
+.h_menuSecundario ul li.MenuServicos li:nth-child(3) a{
+    width:6.3rem
+}
+.h_menuSecundario ul li#meucarrinho {
+    display: inline-block;
+    padding: .13rem .69rem;
+    /*position: absolute;
+    right: 1.0625rem;
+    top: 3.625rem;*/
+}
+.h_menuSecundario ul li.MenuServicos li a:before{
+    display:block;
+    font-family:'casafrentista',sans-serif;
+    font-size:1.5rem;
+    font-weight:normal;
+    line-height:.9rem;
+    padding-bottom:.5rem;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -ms-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+    transition:all 0.4s ease-in-out
+}
+.h_menuSecundario ul li.MenuServicos li:hover a:before{
+    font-size:1.7rem;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -ms-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+    transition:all 0.4s ease-in-out
+}
+.h_phone dd {
+    margin-right: 1rem;
+}
+.h_phone dl::before {
+    content: '\e901';
+    font-family: 'casafrentista';
+    color:#968461;
+    font-size: 32px;
+    position: absolute;
+    margin: -.1rem 0 0 -2.3rem;
+}
+.h_redessociais {
+    right: 35.1rem;
+    position: absolute;
+    top: 3.0rem;
+}
+.h_redessociais a{
+    font-size:1.2rem;
+    text-decoration:none
+}
+.h_redessociais a:hover{
+    text-decoration:none
+}
+.MenuServicos .m-faleconosco {
+    display: none;
+}
+
+.m-institucional {
+    position: absolute;
+    right: 0;
+    top: -1.5rem;
+}
+.m-institucional a{
+	color:#666666;
+	font-size:0.8rem;
+}
+.h_menuSecundario .m-institucional li{
+	padding:0 .5rem
+}
+.pageCheckout{
+    display:none
+}
+/* BUSCA */
+#busca{
+    color: #000;
+    padding: 0;
+    position: absolute;
+    text-align: right;
+    right: 15rem;
+    top: 6rem;
+    width: 16rem;
+    z-index: 96;
+}
+#site-seguro{
+    color:#000;
+    padding:0;
+    position:absolute;
+    text-align:right;
+    right:0;
+    top:6.3rem;
+    width:38rem;
+    z-index:96
+}
+#busca form{
+    height:2.8rem;
+    margin:0;
+    padding:0
+}
+#busca input[type="text"]{
+    border:.063rem solid #c1c1c1;
+    color:#000;
+    float:left;
+    font:1.1rem "latoregular",Arial,Tahoma;
+    height:2.5rem;
+    padding:.063rem 2.3rem 0 .8rem;
+    text-align:left;
+    width:98%;
+	border-radius:.4rem;
+}
+#busca input[type="submit"]{
+    background:none;
+    border:none;
+    cursor:pointer;
+    height:1.9rem;
+    margin:.4rem .063rem 0 -2.4rem;
+    overflow:hidden;
+    text-indent:-312.5rem;
+    width:2rem;
+    z-index:1
+}
+.icon-bt_busca:before{
+    color:#7f7f7f;
+    content:"\e901";
+    font-size:1.8rem;
+    position:absolute;
+    margin-left:-2.4rem;
+    margin-top:.4rem
+}
+/*.p_pergunte label{
+    order:1;
+    color:#222;
+    font:1.1rem "latoregular",Arial,Tahoma;
+    position:absolute;
+    left:15px;
+    bottom:83%;
+    right:auto;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    pointer-events:none;
+    -webkit-font-smoothing:antialiased;
+    padding-right:0;
+    z-index:1;
+    max-width:100%;
+    transform-origin:left top;
+    -webkit-transform-origin:left top;
+    -webkit-transform:translate3d(0,28px,0) scale(1);
+    -moz-transform:translate3d(0,28px,0) scale(1);
+    -ms-transform:translate3d(0,28px,0) scale(1);
+    -o-transform:translate3d(0,28px,0) scale(1);
+    transform:translate3d(0,28px,0) scale(1);
+    -webkit-transition:-webkit-transform .4s cubic-bezier(0.25,.8,.25,1);
+    -moz-transition:-moz-transform .4s cubic-bezier(0.25,.8,.25,1);
+    -o-transition:-o-transform .4s cubic-bezier(0.25,.8,.25,1);
+    transition:transform .4s cubic-bezier(0.25,.8,.25,1);
+    -webkit-transform-origin:left top 50%;
+    -moz-transform-origin:left top 50%;
+    -ms-transform-origin:left top 50%;
+    -o-transform-origin:left top 50%;
+    transform-origin:left top 50%
+}
+label.focus,.foco {
+    color:#ccc;
+    -webkit-transform:translate3d(0,20px,0) scale(0.75);
+    -moz-transform:translate3d(0,20px,0) scale(0.75);
+    -ms-transform:translate3d(0,20px,0) scale(0.75);
+    -o-transform:translate3d(0,20px,0) scale(0.75);
+    transform:translate3d(0,20px,0) scale(0.75);
+    -webkit-transform:cubic-bezier(0.25,.8,.25,1) .4s;
+    -moz-transform:cubic-bezier(0.25,.8,.25,1) .4s;
+    -ms-transform:cubic-bezier(0.25,.8,.25,1) .4s;
+    -o-transform:cubic-bezier(0.25,.8,.25,1) .4s;
+    transform:cubic-bezier(0.25,.8,.25,1) .4s
+}*/
+/* BARRA PROMOCOES */
+#promocoes{
+    display:-webkit-box;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:-webkit-flex;
+    display:flex;
+    margin:.3rem auto;
+    position:relative;
+    width:100%;
+    z-index:3
+}
+#promocoes li {
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    list-style: none;
+    width: 100%;
+    border-bottom: 1px solid #333333;
+    background: #647873;
+}
+#promocoes li a {
+    color: #fff;
+    display: flex;
+    font-size: .75rem;
+    justify-content: center;
+    line-height: 0.9rem;
+    margin: 0;
+    padding: 1.2rem 1rem .9rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#promocoes li a:hover{
+    text-decoration:none
+}
+#promocoes li a span{
+    display:block;
+    text-align:left
+}
+#promocoes li a strong{
+    display:block;
+    font-size:.95rem;
+    text-transform:initial
+}
+#promocoes li a::before {
+    font-family: 'casafrentista','latobold',sans-serif;
+    font-size: 2rem;
+    padding-right: .5rem;
+    position: relative;
+    margin-top: 0.4rem;
+}
+#promocoes li.pro-envio a:before{
+    content:'\e90b';
+}
+#promocoes li.pro-frete a:before{
+    content:'\e9b0'
+}
+#promocoes li.pro-garantia a:before{
+    content:'\e902'
+}
+#promocoes li.pro-parcele a::before {
+    content: '3x';
+    font-size: 2rem;
+    text-transform: initial;
+    margin-top: .2rem;
+}
+@media screen and (max-width:990px){
+    #chatWhats,#expandechatWhats,.h_menu,#h_menubg,.h_menuSecundario,.h_phone,#recolhechatWhats{
+        display:none
+    }
+}
+@media screen and (max-width:720px){
+    #promocoes{
+        flex-wrap:wrap;
+        margin-top:0
+    }
+
+    .h_logo img{
+        width: initial; height: initial;
+    }
+}
+.owl-theme .owl-controls .owl-page span {
+    -webkit-border-radius:0 !important;
+    -moz-border-radius:0  !important;
+    border-radius:0 !important;
+    background: #fff !important;
+}
+#chatWhats, #expandechatWhats, #recolhechatWhats{
+	top:16.33rem !important;
+}    </style>
+    <script src="https://www.ecompletocdn.com.br/loja_core/v1/libs/js/jquery-3.4.1.min.js"></script>
+	<script src="https://www.ecompletocdn.com.br/loja_core/v1/libs/js/angular.min.js"></script>
+    <script src="https://www.ecompletocdn.com.br/loja_core/v1/libs/js/angularjs/app-controllers.js"></script>
+    <script src="https://www.ecompletocdn.com.br/loja_core/v1/libs/js/angularjs/app-filter.min.js"></script>
+    <script src="https://www.ecompletocdn.com.br/loja_core/v1/libs/js/angularjs/app-locale.js"></script>
+    <script src="https://www.ecompletocdn.com.br/loja_core/v1/libs/js/angularjs/app-mask.js"></script>
+    <script src="https://www.ecompletocdn.com.br/loja_core/v1/libs/js/angularjs/ecompleto.api.js"></script>
+    <script async src="https://www.ecompletocdn.com.br/loja_core/v1/libs/js/owl-carousel/owl.carousel.js"></script>
+    <script async src="https://www.ecompletocdn.com.br/loja_core/v1/libs/js/sweetalert/dist/sweetalert.min.js"></script>
+    <script defer src="https://www.ecompletocdn.com.br/loja_core/v1/libs/js/main.js?2023-04-13"></script>
+    <script defer src="https://www.ecompletocdn.com.br/loja_core/v1/libs/js/forms.js?168140334415"></script>
+    <script defer src="https://www.ecompletocdn.com.br/loja_core/v1/libs/js/highlight-plugin.js?2023-04-13"></script>
+    <script defer src="https://www.ecompletocdn.com.br/loja_core/v1/libs/js/jquery.mask.js?2023-04-13"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script defer src='https://www.google.com/recaptcha/api.js'></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/cep-promise/dist/cep-promise.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+        <script language="javascript" src="https://www.ecompleto.com.br/libs/api1.0/impressaopaginas.js.php?id=1272&url=https%3A%2F%2Fwww.numismaticavieira.com.br%2FMaterial-Numismatico%2FCatalogos%2Ftemplates%2Fdefault%2Fimages%2Flogo_site.png&url_reference=&script_filename=" type="text/javascript" async></script>
+        
+    <!DOCTYPE html>
+<html lang="pt-BR" >
+<head>
+  <meta charset="UTF-8">
+  <title>LGPD</title>
+<link rel="stylesheet" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
+<noscript><link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'></noscript>
+
+<link rel='stylesheet' rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300'>
+<noscript><link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300'></noscript>
+
+<link rel="stylesheet" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="//www.ecompletocdn.com.br/loja_core/v1/libs/css/lgpd.css?v1">
+<noscript><link rel="stylesheet" href="//www.ecompletocdn.com.br/loja_core/v1/libs/css/lgpd.css?v1"></noscript>
+
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js' async></script>
+    <script>
+        function lgpdMessageClose(){
+            $('.lgpd-message').remove()
+        }
+        function overlayOpen() {
+            $('body').css('overflow','hidden');
+            $('.overlay').fadeIn(200);
+            $('.overlay > .container-lgpd').fadeIn(400).animate({marginTop : "10px"}, 800);
+        };
+        function overlayClose() {
+            $('body').css('overflow','visible');
+            $('.overlay > .container-lgpd').fadeOut(400).animate({marginTop : "10px"}, 800);
+            $('.overlay').fadeOut(200);
+            lgpdMessageClose()
+        };
+
+        $(document).ready(function() {
+            $('#lgpd').hide();
+            if ($.cookie('lgpd') == null) {
+                $.cookie('lgpd', 'yes', { expires: 30, path: '/' });
+                $('#lgpd').show();
+            }
+        });
+
+    </script>
+    <style>
+        .f_pgto .f_dd ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .f_pgto img {
+            height: 2rem;
+            background-color: initial !important;
+        }
+
+        .fp_ver img{
+            height: 2.5rem !important;
+        }
+
+        .f-bandeira img {
+            height: 5rem;
+            width: 70px;
+        }
+    </style>
+
+</head>
+<body>
+<section id="lgpd" class="lgpd-message">
+    <div class="container lgpd-content">
+    <div class="lgpd-text">
+        <span>Utilizamos cookies para melhorar o desempenho e seguran&ccedil;a do site, al&eacute;m de personalizar conte&uacute;do e an&uacute;ncios. <br>Ao continuar navegando, voc&ecirc; aceita nossa <span style="color: #87cefa; cursor: pointer;" onclick="overlayOpen()">Pol&iacute;tica de Privacidade</span>.</span>
+    <br />
+    </div>
+    <div class="lgpd-button">
+    <button class="btn btn-primary" onclick="lgpdMessageClose()">Continuar</button>
+    </div>
+    </div>
+</section>
+
+
+<div class="overlay">
+  <div class="container-lgpd container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+          <div class="legal">
+
+          <div class="legal__instructions">
+            <div class="alert alert-info" role="alert">
+              <strong>
+                <i class="fa fa-exclamation-triangle"></i>
+            Aten&ccedil;&atilde;o
+              </strong>
+              <span>Ao navegar nesse site, voc&ecirc; concorda com nossa pol&iacute;tica de uso de cookies.</span>
+            </div>
+          </div>
+
+              <div class="legal__terms">
+                  <div class="legal__terms-scroll">
+                      <div id="terms-and-conditions">
+                          <h4>POL&Iacute;TICA DE PRIVACIDADE</h4>
+                          <br>
+                         <p> Numismática Vieira </p>
+
+                          <p>A Pol&iacute;tica de Privacidade de dados pessoais (&quot;Pol&iacute;tica de Privacidade&rdquo;) da  Numismática Vieira  foi criada de modo que venha a demonstrar o compromisso da empresa com a seguran&ccedil;a e a privacidade das informa&ccedil;&otilde;es coletadas dos usu&aacute;rios (&quot;Usu&aacute;rios&quot;) do site da  Numismática Vieira . As informa&ccedil;&otilde;es coletadas nos auxiliam a sempre melhorar o site e enriquecer a experi&ecirc;ncia de navega&ccedil;&atilde;o dos Usu&aacute;rios.</p>
+
+                          <p>Nossa pol&iacute;tica de privacidade tem como objetivo explicar aos usu&aacute;rios como seus dados e informa&ccedil;&otilde;es s&atilde;o tratados, armazenados e utilizados em nosso site. As informa&ccedil;&otilde;es dos usu&aacute;rios n&atilde;o ser&atilde;o fornecidas, publicadas ou comercializadas em quaisquer circunst&acirc;ncias, exceto conforme previsto nesta Pol&iacute;tica de Privacidade.</p>
+
+                          <p></p>
+
+                          <p>Esta Pol&iacute;tica de Privacidade complementa os Termos e Condi&ccedil;&otilde;es do Site e quaisquer outros termos aplic&aacute;veis aos servi&ccedil;os da  Numismática Vieira .</p>
+
+                          <p></p>
+
+                          <p>Recomendamos a verifica&ccedil;&atilde;o dessa pol&iacute;tica regularmente, pois ela est&aacute; sujeita a altera&ccedil;&otilde;es sem pr&eacute;vio aviso.</p>
+
+                          <p><strong>COLETA DOS SEUS DADOS PESSOAIS</strong></p>
+
+                          <p>1.1. Identidade e informa&ccedil;&otilde;es de contato do Processador. E-COMPLETO TECNOLOGIA E SISTEMAS LTDA, sociedade de responsabilidade limitada, estabelecida no Brasil, com sede em R. Estados Unidos, 788 - Bacacheri, 82510-050, Curitiba, Paran&aacute;, inscrita no Cadastro Nacional de Pessoas Jur&iacute;dicas do Minist&eacute;rio da Fazenda (CNPJ/MF) sob n. 05.738.537/0001-77 ou qualquer de suas afiliadas.</p>
+
+                          <p><strong>INFORMA&Ccedil;&Otilde;ES FORNECIDAS PELO USU&Aacute;RIO</strong></p>
+
+                          <p>2.1. Informa&ccedil;&otilde;es solicitadas. Para otimizar a sua experi&ecirc;ncia de usu&aacute;rio do site  Numismática Vieira , podemos solicitar que o usu&aacute;rio forne&ccedil;a determinadas informa&ccedil;&otilde;es pessoais, ou seja, informa&ccedil;&otilde;es que possam ser usadas para identific&aacute;-lo pessoalmente ou contat&aacute;-lo (como seu nome, CPF, data de nascimento, sexo, e-mail, n&uacute;mero de telefone, endere&ccedil;o, dados de autentica&ccedil;&atilde;o &quot;log data&quot;), assim como, por exemplo, coletar informa&ccedil;&otilde;es pessoais quando o usu&aacute;rio solicita informa&ccedil;&otilde;es sobre o uso de nossos servi&ccedil;os, realiza o envio de coment&aacute;rios, publicar em sites de m&iacute;dia social, participar de uma promo&ccedil;&atilde;o, ou campanha e pesquisa, ou utilizar outro recurso do site  Numismática Vieira .</p>
+
+                          <p></p>
+
+                          <p>2.2. Seguran&ccedil;a de informa&ccedil;&otilde;es financeiras. Ser&atilde;o utilizados institui&ccedil;&otilde;es banc&aacute;rias e intermediadores de pagamento, para que sejam efetuadas as transa&ccedil;&otilde;es online.</p>
+
+                          <p>2.3. Coleta dos dados pessoais. A  Numismática Vieira  pode coletar Dados de Clientes de diferentes maneiras, como no momento do registro do cadastro no Site da  Numismática Vieira  como Usu&aacute;rio, quando h&aacute; navega&ccedil;&atilde;o no Site da  Numismática Vieira , quando h&aacute; contato com a  Numismática Vieira  por meio do Site (p&aacute;gina &ldquo;Fale conosco&rdquo;), mas tamb&eacute;m em comunica&ccedil;&atilde;o com a  Numismática Vieira  por e-mail e telefone.</p>
+
+                          <p><strong>DURANTE O USO DO SITE</strong></p>
+
+                          <p>3.1. Este Site poder&aacute; conter links ou frames de outros sites, que podem ou n&atilde;o ser parceiros da Empresa. Esses links e frames s&atilde;o disponibilizados com o objetivo de proporcionar mais um benef&iacute;cio para os usu&aacute;rios. A inclus&atilde;o destes links e frames n&atilde;o significa, no entanto, que a  Numismática Vieira  tenha conhecimento, concorde, ou seja, respons&aacute;vel por eles ou por seus respectivos conte&uacute;dos, assim, a  Numismática Vieira  n&atilde;o se responsabilizar&aacute; por eventuais perdas ou danos sofridos em raz&atilde;o de utiliza&ccedil;&atilde;o dos referidos links ou frames, de modo que os respons&aacute;veis dos outros sites ser&atilde;o responsabilizados pelo seu conte&uacute;do.</p>
+
+                          <p>I - Sempre que outras empresas/parceiros forem contratadas para executar servi&ccedil;os de apoio ao site, ser&aacute; exigida a adequa&ccedil;&atilde;o aos padr&otilde;es de privacidade da  Numismática Vieira .</p>
+
+                          <p>3.2. Para fins administrativos, eventualmente a Empresa poder&aacute; utilizar &quot;cookies&quot;, sendo que o usu&aacute;rio pode, a qualquer instante, ativar em seu navegador mecanismos para inform&aacute;-lo quando estiverem acionados ou at&eacute; mesmo desativ&aacute;-los.</p>
+
+                          <p>3.3. Apesar disso, no caso do site, nenhuma dessas informa&ccedil;&otilde;es est&aacute; associada ao usu&aacute;rio enquanto indiv&iacute;duo. Tudo &eacute; mensurado somente de forma an&ocirc;nima e agregada. As informa&ccedil;&otilde;es que os cookies permitem rastrear referem-se &agrave; sua atividade de navega&ccedil;&atilde;o, de modo que os cookies n&atilde;o capturam endere&ccedil;o individual de e-mail ou qualquer informa&ccedil;&atilde;o particular sobre o Usu&aacute;rio.</p>
+
+                          <p><strong>USO DAS INFORMA&Ccedil;&Otilde;ES COLETADAS</strong></p>
+
+                          <p>4.1. Destina&ccedil;&atilde;o dos dados coletados. Usamos as informa&ccedil;&otilde;es coletadas sobre o usu&aacute;rio para levantamento de estat&iacute;stica; al&eacute;m de responder &agrave;s suas perguntas e solicita&ccedil;&otilde;es; fornecer-lhe acesso a determinadas &aacute;reas e recursos do site  Numismática Vieira ; comunicar-se com o usu&aacute;rio sobre sua conta e atividades usando o site  Numismática Vieira  e altera&ccedil;&otilde;es em qualquer uma de nossas pol&iacute;ticas. Al&eacute;m disso, podemos fornecer suas informa&ccedil;&otilde;es pessoais para outros fins para os quais o usu&aacute;rio forneceu seu consentimento, como:</p>
+
+                          <p>(I) Atender &agrave;s finalidades comerciais e aprimorar a oferta de Servi&ccedil;os com os seguintes objetivos: gest&atilde;o do relacionamento com usu&aacute;rios; envio de comunicados e informa&ccedil;&otilde;es, inclusive para fins de marketing; gerenciamento de feedback dos usu&aacute;rios;</p>
+
+                          <p>(II) Promover suas atividades e Servi&ccedil;os, com os seguintes objetivos: envio de comunica&ccedil;&otilde;es e informa&ccedil;&otilde;es, inclusive para fins de marketing, al&eacute;m da realiza&ccedil;&atilde;o de campanhas publicit&aacute;rias ou de prospec&ccedil;&atilde;o;</p>
+
+                          <p>(III) Ajudar na melhoria do desenvolvimento do Site para os seguintes objetivos: medi&ccedil;&atilde;o de tr&aacute;fego e monitoramento de fluxo de clique.</p>
+
+                          <p>(IV) Responder &agrave;s solicita&ccedil;&otilde;es como parte de suas atividades com o seguinte objetivo: gerenciamento de solicita&ccedil;&otilde;es e respostas publicadas no Site.</p>
+
+                          <p>(V) Outras hip&oacute;teses guiadas a partir da livre vontade da  Numismática Vieira , desde que demonstrada sua finalidade no momento de coleta.</p>
+
+                          <p>4.2. Altera&ccedil;&atilde;o da finalidade do uso dos dados coletados. Na hip&oacute;tese da  Numismática Vieira , alterar as finalidades previstas no item 4.1 da presente Pol&iacute;tica de Privacidade, em inobserv&acirc;ncia ao consentimento originalmente fornecido, ser&aacute; informado ao Fornecedor dos dados, com destaque de forma espec&iacute;fica o teor das altera&ccedil;&otilde;es, ficando, assim, facultada a revoga&ccedil;&atilde;o do consentimento.</p>
+
+                          <p><strong>COMPARTILHAMENTO DE DADOS</strong></p>
+
+                          <p>5.1. Compartilhamento de dados. Exceto conforme disposto nesta Pol&iacute;tica de Privacidade, a  Numismática Vieira  n&atilde;o compartilhar&aacute; as informa&ccedil;&otilde;es pessoais dos usu&aacute;rios com terceiros sem o seu consentimento espec&iacute;fico.</p>
+
+                          <p>5.2. Hip&oacute;teses de compartilhamento. Al&eacute;m disso, podemos compartilhar suas informa&ccedil;&otilde;es nas circunst&acirc;ncias abaixo.</p>
+
+                          <p>5.2.1 Terceiros que prestam servi&ccedil;os em nosso nome. Prestadores de servi&ccedil;o: para que a  Numismática Vieira  possa disponibilizar os produtos e prestar os servi&ccedil;os com qualidade, conta com a colabora&ccedil;&atilde;o de diversos prestadores de servi&ccedil;o, que tratam os dados pessoais coletados em seu nome e de acordo com as instru&ccedil;&otilde;es repassadas. Esses prestadores de servi&ccedil;o atuam principalmente para auxiliar nas an&aacute;lises antifraude, intermedia&ccedil;&atilde;o de pagamentos, monitoramento do site, gest&atilde;o de campanhas de marketing, enriquecimento de base de dados e armazenamento em nuvem.</p>
+
+                          <p>5.2.2. Transfer&ecirc;ncias Empresariais. A  Numismática Vieira  poder&aacute; compartilhar suas informa&ccedil;&otilde;es pessoais com outras entidades e afiliadas controladas pela  Numismática Vieira  para fins comerciais e operacionais. &Agrave; medida que aquela continuar a desenvolver os neg&oacute;cios, poder&aacute; vender ou comprar ativos. Se outra empresa comprar a opera&ccedil;&atilde;o da  Numismática Vieira , neg&oacute;cio ou ativos, a adquirente tamb&eacute;m poder&aacute; adquirir as informa&ccedil;&otilde;es pessoais (e Informa&ccedil;&otilde;es de Uso) coletadas e armazenadas no curso de exist&ecirc;ncia da empresa, de forma que assumir&aacute; os direitos e obriga&ccedil;&otilde;es referentes &agrave;s suas informa&ccedil;&otilde;es pessoais, conforme descrito nesta Pol&iacute;tica de Privacidade. Al&eacute;m disso, se qualquer processo de fal&ecirc;ncia ou recupera&ccedil;&atilde;o for movido por ou contra a  Numismática Vieira , todas essas informa&ccedil;&otilde;es poder&atilde;o ser consideradas ativos desta e, como tal, poder&atilde;o ser vendidas ou transferidas a terceiros.</p>
+
+                          <p>5.2.3. Divulga&ccedil;&atilde;o Legal. Exceto nos casos em que a  Numismática Vieira  receba determina&ccedil;&atilde;o legal ou judicial, as informa&ccedil;&otilde;es pessoais dos usu&aacute;rios n&atilde;o ser&atilde;o transferidas a terceiros ou usadas para finalidades diferentes daquelas para as quais foram coletadas.</p>
+
+                          <p><strong>SEGURAN&Ccedil;A DA INFORMA&Ccedil;&Atilde;O</strong></p>
+
+                          <p>6.1. Confidencialidade. A  Numismática Vieira  segue padr&otilde;es r&iacute;gidos de seguran&ccedil;a e confidencialidade a fim de proteger as informa&ccedil;&otilde;es pessoais dos usu&aacute;rios. Todas as informa&ccedil;&otilde;es pessoais fornecidas &agrave;  Numismática Vieira  ser&atilde;o coletadas por meios &eacute;ticos e legais, de modo que os usu&aacute;rios ser&atilde;o informados sobre a finalidade da coleta de informa&ccedil;&atilde;o e por isso, caber&aacute; a ele optar por fornecer ou n&atilde;o a informa&ccedil;&atilde;o. A Empresa manter&aacute; &iacute;ntegras as Informa&ccedil;&otilde;es Pessoais fornecidas pelos Usu&aacute;rios.</p>
+
+                          <p>6.2. Previs&atilde;o legal. O usu&aacute;rio &eacute; titular de todos os direitos previstos no art. 18, da Lei 13.709 de 2018. Ou seja, isso significa que, a qualquer momento, o usu&aacute;rio pode solicitar: a confirma&ccedil;&atilde;o da exist&ecirc;ncia do tratamento de seus dados; acesso aos dados que a  Numismática Vieira  possuir sobre o usu&aacute;rio; corre&ccedil;&atilde;o de dados incompletos, inexatos ou desatualizados; anonimiza&ccedil;&atilde;o, bloqueio ou elimina&ccedil;&atilde;o de dados considerados desnecess&aacute;rios, excessivos ou tratados em desconformidade com o disposto na referida Lei; portabilidade dos seus dados a outro fornecedor de servi&ccedil;o ou produto, mediante requisi&ccedil;&atilde;o expressa e observados os segredos comercial e industrial, de acordo com a regulamenta&ccedil;&atilde;o do &oacute;rg&atilde;o controlador; elimina&ccedil;&atilde;o dos dados pessoais tratados com o seu consentimento, exceto nas hip&oacute;teses de cumprimento de obriga&ccedil;&atilde;o legal ou regulat&oacute;ria, estudo por &oacute;rg&atilde;o de pesquisa (garantida sempre que poss&iacute;vel a anonimiza&ccedil;&atilde;o dos dados pessoais), transfer&ecirc;ncia a terceiro ou uso exclusivo de dados anonimizados pelo  Numismática Vieira ; informa&ccedil;&atilde;o das entidades p&uacute;blicas e privadas com as quais o  Numismática Vieira  realizou uso compartilhado de dados; informa&ccedil;&atilde;o sobre a possibilidade de n&atilde;o fornecer consentimento e sobre as consequ&ecirc;ncias da negativa; revoga&ccedil;&atilde;o do consentimento; peticionar em rela&ccedil;&atilde;o aos seus dados contra a  Numismática Vieira  perante a autoridade nacional respons&aacute;vel. Estes direitos poder&atilde;o ser exercidos perante os organismos de defesa do consumidor.</p>
+
+                          <p>6.3. Medida de seguran&ccedil;a. Medidas padr&atilde;o da ind&uacute;stria (por exemplo, firewalls, ferramentas de criptografia e solu&ccedil;&otilde;es de seguran&ccedil;a online) para proteger contra a perda, uso indevido e altera&ccedil;&atilde;o n&atilde;o autorizada de informa&ccedil;&otilde;es pessoais em posse e controle da  Numismática Vieira .</p>
+
+                          <p>6.4. Cancelamento de cadastro. Caso o usu&aacute;rio queira cancelar seu cadastro, poder&aacute; entrar em contato com a  Numismática Vieira  por meio de nossa CENTRAL DE ATENDIMENTO no telefone 21 31990167 e fazer a solicita&ccedil;&atilde;o. Seu pedido ser&aacute; processado num prazo de 15 (quinze) dias &uacute;teis. O Usu&aacute;rio tamb&eacute;m poder&aacute; entrar em contato com a empresa pelo mesmo canal de comunica&ccedil;&atilde;o para fazer sugest&otilde;es ou tirar d&uacute;vidas.</p>
+
+                          <p>6.5. Responsabilidade. Esteja ciente de que, embora a  Numismática Vieira  se empenhe em fornecer seguran&ccedil;a para informa&ccedil;&otilde;es em sua posse e controle, nenhum sistema de seguran&ccedil;a pode prevenir contra poss&iacute;veis brechas de seguran&ccedil;a, sendo que a  Numismática Vieira  n&atilde;o se responsabiliza por usos ou divulga&ccedil;&otilde;es de informa&ccedil;&otilde;es pessoais ou n&atilde;o-pessoais (anonimizadas) que surjam em conex&atilde;o com o seu roubo. Da mesma forma, os usu&aacute;rios do site  Numismática Vieira  s&atilde;o respons&aacute;veis &#8203;&#8203;por salvaguardar a confidencialidade das senhas, sendo que a  Numismática Vieira  n&atilde;o se responsabiliza pelo acesso, uso ou divulga&ccedil;&atilde;o de informa&ccedil;&atilde;o, se tal acesso, uso ou divulga&ccedil;&atilde;o surgir em conex&atilde;o com o roubo ou divulga&ccedil;&atilde;o (intencional ou negligente) de uma senha. Observe-se, no entanto, que a  Numismática Vieira  n&atilde;o pode garantir a seguran&ccedil;a de qualquer informa&ccedil;&atilde;o que o usu&aacute;rio nos transmita ou que armazenemos.</p>
+
+                          <p>6.6. Acesso &agrave;s informa&ccedil;&otilde;es. O acesso &agrave;s informa&ccedil;&otilde;es pessoais coletadas est&aacute; restrito apenas aos funcion&aacute;rios autorizados da  Numismática Vieira , ou a contratados que ajudem a operar o Site. Os funcion&aacute;rios e contratados que se utilizarem indevidamente dessas informa&ccedil;&otilde;es, ferindo essa Pol&iacute;tica de Privacidade, estar&atilde;o sujeitos &agrave;s penalidades do processo disciplinar da  Numismática Vieira , bem como &agrave;s penalidades previstas na legisla&ccedil;&atilde;o c&iacute;vel e penal.</p>
+
+                          <p><strong>DIREITOS DOS USU&Aacute;RIOS E TRANSFER&Ecirc;NCIA DE INFORMA&Ccedil;&Atilde;O</strong></p>
+
+                          <p>7.1 Consentimento dos usu&aacute;rios. O Fornecedor das Informa&ccedil;&otilde;es declara-se ciente e concorda de forma expressa, livre informada e inequ&iacute;voca que a  Numismática Vieira  anteriormente qualificada, em decorr&ecirc;ncia do presente Termo, poder&aacute; realizar o tratamento dos seus dados pessoais, inclusive dos dados pessoais sens&iacute;veis, bem como poder&aacute; ter acesso, utilizar, manter, recepcionar, armazenar, classificar, avaliar, transmitir, reproduzir, eliminar, distribuir e processar, eletr&ocirc;nica e/ou manualmente, informa&ccedil;&otilde;es e dados prestados por este, raz&atilde;o pela qual, desde j&aacute;, a  Numismática Vieira  se compromete a tratar os dados pessoais envolvidos na confec&ccedil;&atilde;o e necess&aacute;rios &agrave; execu&ccedil;&atilde;o da presente Pol&iacute;tica de Privacidade, &uacute;nica e exclusivamente para cumprir com a finalidade a que se destinam bem como, em respeito a toda a legisla&ccedil;&atilde;o aplic&aacute;vel sobre a seguran&ccedil;a da informa&ccedil;&atilde;o, privacidade e prote&ccedil;&atilde;o de dados, inclusive, mas n&atilde;o se limitando &agrave; Lei n&ordm; 13.709/2018 (Lei Geral de Prote&ccedil;&atilde;o de Dados), sob pena de responsabiliza&ccedil;&atilde;o da parte infratora por perdas e danos.</p>
+
+                          <p>7.2. Al&eacute;m das informa&ccedil;&otilde;es disponibilizadas nesta Pol&iacute;tica de Privacidade, o usu&aacute;rio pode tamb&eacute;m exercer os direitos previstos na Lei Geral de Prote&ccedil;&atilde;o de Dados, entre eles:</p>
+
+                          <p>(I) Confirma&ccedil;&atilde;o da exist&ecirc;ncia de tratamento de dados pessoais;</p>
+
+                          <p>(II) Acesso aos dados pessoais;</p>
+
+                          <p>(III) Revoga&ccedil;&atilde;o do consentimento;</p>
+
+                          <p>(IV) Corre&ccedil;&atilde;o de dados pessoais incompletos, inexatos ou desatualizados;</p>
+
+                          <p>(V) Elimina&ccedil;&atilde;o dos dados pessoais tratados com o consentimento ou desnecess&aacute;rios, excessivos ou quando entender que algum ponto da LGPD n&atilde;o foi atendido;</p>
+
+                          <p>(VI) Informa&ccedil;&atilde;o sobre as hip&oacute;teses e com quais empresas, parceiros e outras institui&ccedil;&otilde;es podemos compartilhar, ou receber dados pessoais referentes ao usu&aacute;rio;</p>
+
+                          <p>(VII) Informa&ccedil;&atilde;o sobre a possibilidade de n&atilde;o <f></f>ornecer consentimento e sobre as consequ&ecirc;ncias da negativa, quando aplic&aacute;vel;</p>
+
+                          <p>(VIII) Todas as solicita&ccedil;&otilde;es ser&atilde;o tratadas de forma gratuita, e ser&atilde;o submetidas a uma pr&eacute;via avalia&ccedil;&atilde;o da sua identidade e da viabilidade do atendimento, a fim de cumprir com eventuais obriga&ccedil;&otilde;es que impe&ccedil;am o completo atendimento das requisi&ccedil;&otilde;es dos titulares de direito.</p>
+
+                          <p>7.3. Transfer&ecirc;ncia dos dados pessoais dos usu&aacute;rios. Alguns dados pessoais dos usu&aacute;rios poder&atilde;o ser transferidos para outros pa&iacute;ses, por exemplo, quando utilizado servi&ccedil;os computacionais em nuvem para processamento ou armazenamento de dados, localizados fora do Brasil. Cabe salientar que s&atilde;o observados todos os requisitos estabelecidos na legisla&ccedil;&atilde;o vigente, adotando as melhores pr&aacute;ticas de mercado a fim de garantir a prote&ccedil;&atilde;o e privacidade dos seus dados pessoais.</p>
+
+                          <p><strong>PER&Iacute;ODO DE RETEN&Ccedil;&Atilde;O</strong></p>
+
+                          <p>8.1. Prazo de reten&ccedil;&atilde;o dos dados. A  Numismática Vieira  estabeleceu per&iacute;odos de reten&ccedil;&atilde;o dos seus Dados com base nos objetivos do processamento e considerando as obriga&ccedil;&otilde;es legais da  Numismática Vieira . O prazo de reten&ccedil;&atilde;o dos dados pessoais dos usu&aacute;rios &eacute; por at&eacute; 5 (cinco) anos e 180 dias.</p>
+
+                          <p></p>
+
+                          <p><strong>DISPOSI&Ccedil;&Otilde;ES GERAIS</strong></p>
+
+                          <p>9.1. Aplicabilidade. Se, por qualquer motivo, um tribunal competente considerar que qualquer disposi&ccedil;&atilde;o desta Pol&iacute;tica de Privacidade (ou qualquer parte da mesma) &eacute; inexequ&iacute;vel, essa disposi&ccedil;&atilde;o (ou qualquer parte da mesma) ser&aacute; aplicada na medida do m&aacute;ximo permitido, de forma a refletir a inten&ccedil;&atilde;o dos Termos da  Numismática Vieira , e as disposi&ccedil;&otilde;es restantes dos Termos da  Numismática Vieira  manter-se-&atilde;o em pleno vigor e efeito.</p>
+
+                          <p></p>
+
+                          <p>9.2. Toler&acirc;ncia. Qualquer toler&acirc;ncia a um descumprimento do presente ser&aacute; considerada mera liberalidade, n&atilde;o sendo considerada nova&ccedil;&atilde;o tampouco passando a integrar os presentes Termos.</p>
+
+                          <p></p>
+
+                          <p>9.3. Foro. Fica eleito o Foro de Rio de Janeiro, RJ, para dirimir eventuais conflitos advindos do presente instrumento, renunciando a qualquer outro, por mais privilegiado que seja.</p>
+
+                          <p></p>
+
+                          <p>Expostos os termos e condi&ccedil;&otilde;es da pol&iacute;tica de privacidade, o usu&aacute;rio dever&aacute; concordar com as disposi&ccedil;&otilde;es para efetivo uso do servi&ccedil;o oferecido, sendo que o uso sem a concord&acirc;ncia expressa e por escrito ser&aacute; considerado como concord&acirc;ncia t&aacute;cita.</p>
+
+                          <p>Rio de Janeiro, RJ</p>
+
+                          <p> Numismática Vieira </p>
+
+                      </div>
+                  </div>
+              </div>
+
+
+
+          <div class="legal__actions">
+            <div style="float: right;">
+              <button type="button" class="btn btn-success" onclick="overlayClose()">Continuar</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
+</head><body>
+<div class="container clearfix">
+  <!-- HEADER [ logo + boas vindas + menu(s) + carrinho + busca ] -->
+  <!-- AFILIADOS -->
+<header class="header">
+  <div class="h_cabecalho">
+    <figure class="h_logo"><a href="index.php" title=""><img width="449px" height="126px" loading="lazy" src="templates/default/images/logo_site.png" alt="Numismática Vieira"></a></figure>
+    <nav ng-if="!pageCheckout" class="h_menuSecundario">
+    	<ul class="m-institucional">
+        	<li><a href="quem-somos.php">Empresa</a></li>
+            <li><a href="servicos.php">Servi&ccedil;os</a></li>
+            <li><a href="localizacao.php">Localiza&ccedil;&atilde;o</a></li>
+            <li><a href="fale-conosco.php">Fale Conosco</a></li>
+        </ul>
+      <span ng-if="windowWidth < 990" ng-click="$parent.showmenusec = !$parent.showmenusec" ng-class="{ active: $parent.showmenusec }" ng-init="$parent.showmenusec=false" class="icon-user"></span>
+      <span ng-if="windowWidth > 990" ng-init="$parent.showmenusec=true"></span>
+      <ul>
+        <li ng-show="showmenusec" ng-class="{ active: showmenusec }" class="MenuServicos showmenusec">
+          <ul>
+            <li class="m-faleconosco"><a href="fale-conosco.php">Fale Conosco</a></li>
+            <li class="m-conta"><a href="minha-conta.php">Login / Cadastre-se</a></li>
+          </ul>
+        </li>
+        <li id="meucarrinho">
+        <a class="area_link" href="carrinho.php"></a>
+        <span class="meu_carrinho meu_carrinho_open_floater"><a href="carrinho.php">Meu Carrinho</a> <br><span><label class="chaves_carrinho">[</label> <strong id="num_itens_carrinho" style="font-weight:normal">0</strong> itens <label class="chaves_carrinho">]</label></span></span></li>
+      </ul>
+      <span ng-if="windowWidth > 990" class="h_redessociais">
+              </span>
+    </nav>
+    <div class="h_telefone" ng-if="!pageCheckout" >
+        <div class="h_phone">
+            <dl>
+                            <dd  class="f_sac"><span>(21) <strong>3199-0167</strong></span><strong></strong></dd>
+                            <dd  class="f_sac"><span>(21) <strong>2263-3842</strong></span><strong></strong></dd>
+                                        <!--dd class="f_aviso">* N&Uacute;MERO EXCLUSIVO PARA ATENDIMENTO VIA WHATSAPP</dd-->
+            </dl>
+        </div>
+    </div>
+    <div ng-if="!pageCheckout" id="busca">
+        <form id="frm_pesquisa" name="search" action="exibirpesquisa.php" method="get" onsubmit="javascript: return frm_validarPesquisa(this);">
+            <fieldset>
+                <input type="text" maxlength="50" size="20" placeholder="Busque aqui" name="busca" onkeyup="suggestion();" onfocus="suggestion();" id="texto_pesquisa" value="" autocomplete="off" />
+                <input type="submit" id="btn" value="" />
+                <span class="icon-bt_busca" style="cursor: pointer;" onclick="javascript: return frm_validarPesquisa(document.getElementById('frm_pesquisa'));"></span>
+                <!-- suggestion -->
+                <div id="search_suggestion"></div>
+            </fieldset>
+        </form>
+    </div>
+    <div ng-if="pageCheckout" id="site-seguro">
+        <span>Compra Segura</span>
+    </div>
+  </div>
+  <div ng-if="!pageCheckout && windowWidth > 990" id="h_menubg"></div>
+  <nav ng-if="!pageCheckout" class="h_menu">
+    <span ng-if="windowWidth < 990" ng-click="$parent.showmenu = !$parent.showmenu" ng-class="{ active: $parent.showmenu }" ng-init="$parent.showmenu=false" class="icon-menu"></span>
+    <span ng-if="windowWidth > 990" ng-init="$parent.showmenu=true"></span>
+    <ul ng-show="showmenu" ng-class="{ active: showmenu }" class="MenuPrincipal showmenu">
+        <!--li class="avo mptodos">
+            <a class="icones"><strong>DEPARTAMENTOS</strong></a>
+            <ul id="mptodos" class="mpSubmenu">
+                < ? foreach($data_categorias as $keyCat1 => $rowCat1){ ?>
+                    <li>
+                        <a href="< ?=$rowCat1->url_rewrite?>" ng-mouseover="AbreSubMenu(cate.ordem);" ng-mouseout="FechaSubMenu(cate.ordem);">
+                            < ?=$rowCat1->nome?>
+                        </a>
+                        <ul id="mp< ?=$rowCat1->id?>" class="mpSubmenu">
+                            < ?
+                            if(count($rowCat1->filho) > 0) {
+                                foreach($rowCat1->filho as $keyCat2 => $rowCat2){ ?>
+                                    <li class="pai mpSub">
+                                        <a class="" href="< ?=$rowCat2->url_rewrite?>">< ?=$rowCat2->nome?></a>
+                                        < ? if(count($rowCat2->filho) > 0) { ?>
+                                            <!--dl>
+                                                < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                                    <dd>
+                                                        <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                                    </dd>
+                                                < ? } ?>
+                                            </dl>
+                                        < ? }?>
+                                    </li>
+                                    < ?
+                                }
+                            } ?>
+                        </ul>
+                    </li>
+                < ? } ?>
+            </ul>
+        </li-->
+                <li class="avo mp73235">
+              <a href="c/material-numismatico/73235-SIT.html" ng-mouseover="AbreSubMenu(cate.ordem);" ng-mouseout="FechaSubMenu(cate.ordem);" class="icones">
+                  <span class="icon-linhapropria"></span>Material Numismático              </a>
+                <ul id="mp73235" class="mpSubmenu" ng-mouseover="AbreSubMenu(cate.ordem);" ng-mouseout="FechaSubMenu(cate.ordem);">
+                                            <li class="pai mpSub">
+                              <a class="" href="c/albuns/acessorios/73275-SIT.html">Álbuns/Acessórios</a>
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/catalogos/73236-SIT.html">Catálogos</a>
+                                                        </li>
+                                        </ul>
+          </li>
+                <li class="avo mp68438">
+              <a href="c/moedas-nacionais/68438-SIT.html" ng-mouseover="AbreSubMenu(cate.ordem);" ng-mouseout="FechaSubMenu(cate.ordem);" class="icones">
+                  <span class="icon-linhapropria"></span>Moedas Nacionais              </a>
+                <ul id="mp68438" class="mpSubmenu" ng-mouseover="AbreSubMenu(cate.ordem);" ng-mouseout="FechaSubMenu(cate.ordem);">
+                                            <li class="pai mpSub">
+                              <a class="" href="c/colonia/69560-SIT.html">Colônia</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/imperio/69564-SIT.html">Império</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/republica/69562-SIT.html">República</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                        </ul>
+          </li>
+                <li class="avo mp68445">
+              <a href="c/moedas-estrangeiras/68445-SIT.html" ng-mouseover="AbreSubMenu(cate.ordem);" ng-mouseout="FechaSubMenu(cate.ordem);" class="icones">
+                  <span class="icon-linhapropria"></span>Moedas Estrangeiras              </a>
+                <ul id="mp68445" class="mpSubmenu" ng-mouseover="AbreSubMenu(cate.ordem);" ng-mouseout="FechaSubMenu(cate.ordem);">
+                                            <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-a/76298-SIT.html">Países com a Letra  A</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-m/76564-SIT.html">Países com a Letra M</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-r/76637-SIT.html">Países com a Letra R</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-s/76638-SIT.html">Países com a Letra S</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-u/76640-SIT.html">Países com a Letra U</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-b/76353-SIT.html">Países com a Letra B</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-c/76428-SIT.html">Países com a Letra C</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-d/76432-SIT.html">Países com a Letra D</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-e/76433-SIT.html">Países com a Letra E</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-f/76434-SIT.html">Países com a Letra F</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-g/76435-SIT.html">Países com a Letra G</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-i/76467-SIT.html">Países com a Letra I</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                        </ul>
+          </li>
+                <li class="avo mp68732">
+              <a href="c/cedulas-nacionais/68732-SIT.html" ng-mouseover="AbreSubMenu(cate.ordem);" ng-mouseout="FechaSubMenu(cate.ordem);" class="icones">
+                  <span class="icon-linhapropria"></span>Cédulas Nacionais              </a>
+                <ul id="mp68732" class="mpSubmenu" ng-mouseover="AbreSubMenu(cate.ordem);" ng-mouseout="FechaSubMenu(cate.ordem);">
+                                            <li class="pai mpSub">
+                              <a class="" href="c/imperio/69685-SIT.html">Império</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/republica/69567-SIT.html">República</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                        </ul>
+          </li>
+                <li class="avo mp68733">
+              <a href="c/cedulas-estrangeiras/68733-SIT.html" ng-mouseover="AbreSubMenu(cate.ordem);" ng-mouseout="FechaSubMenu(cate.ordem);" class="icones">
+                  <span class="icon-linhapropria"></span>Cédulas Estrangeiras              </a>
+                <ul id="mp68733" class="mpSubmenu" ng-mouseover="AbreSubMenu(cate.ordem);" ng-mouseout="FechaSubMenu(cate.ordem);">
+                                            <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-c/76652-SIT.html">Países com a Letra C</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-f/76655-SIT.html">Países com a Letra F</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-g/76656-SIT.html">Países com a Letra G</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-h/76657-SIT.html">Países com a Letra H</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-i/76658-SIT.html">Países com a Letra I</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-m/76754-SIT.html">Países com a Letra M</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-p/76757-SIT.html">Países com a Letra P</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-u/76768-SIT.html">Países com a Letra U</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/paises-com-a-letra-v/76769-SIT.html">Países com a Letra V</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                        </ul>
+          </li>
+                <li class="avo mp73994">
+              <a href="c/medalhas/73994-SIT.html" ng-mouseover="AbreSubMenu(cate.ordem);" ng-mouseout="FechaSubMenu(cate.ordem);" class="icones">
+                  <span class="icon-linhapropria"></span>Medalhas              </a>
+                <ul id="mp73994" class="mpSubmenu" ng-mouseover="AbreSubMenu(cate.ordem);" ng-mouseout="FechaSubMenu(cate.ordem);">
+                                            <li class="pai mpSub">
+                              <a class="" href="c/brasileiras/73995-SIT.html">Brasileiras</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/estrangeiras/74116-SIT.html">Estrangeiras</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/condecoracoes/78829-SIT.html">Condecorações</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                        </ul>
+          </li>
+                <li class="avo mp73845">
+              <a href="c/set-de-cedulas/73845-SIT.html" ng-mouseover="AbreSubMenu(cate.ordem);" ng-mouseout="FechaSubMenu(cate.ordem);" class="icones">
+                  <span class="icon-linhapropria"></span>Set de Cédulas              </a>
+                <ul id="mp73845" class="mpSubmenu" ng-mouseover="AbreSubMenu(cate.ordem);" ng-mouseout="FechaSubMenu(cate.ordem);">
+                                            <li class="pai mpSub">
+                              <a class="" href="c/brasileiras/73978-SIT.html">Brasileiras</a>
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/estrangeiras/73846-SIT.html">Estrangeiras</a>
+                                                        </li>
+                                        </ul>
+          </li>
+                <li class="avo mp73424">
+              <a href="c/set-de-moedas/73424-SIT.html" ng-mouseover="AbreSubMenu(cate.ordem);" ng-mouseout="FechaSubMenu(cate.ordem);" class="icones">
+                  <span class="icon-linhapropria"></span>Set de Moedas              </a>
+                <ul id="mp73424" class="mpSubmenu" ng-mouseover="AbreSubMenu(cate.ordem);" ng-mouseout="FechaSubMenu(cate.ordem);">
+                                            <li class="pai mpSub">
+                              <a class="" href="c/brasileiras/73716-SIT.html">Brasileiras</a>
+                                                                  <!-- dl>
+                                        < ? foreach($rowCat2->filho as $keyCat3 => $rowCat3){ ?>
+                                          <dd>
+                                                <a class="" href="< ?=$rowCat3->url_rewrite?>">< ?=$rowCat3->nome?></a>
+                                          </dd>
+                                        < ? } ?>
+                                    </dl-->
+                                                        </li>
+                                                    <li class="pai mpSub">
+                              <a class="" href="c/estrangeiras/73487-SIT.html">Estrangeiras</a>
+                                                        </li>
+                                        </ul>
+          </li>
+          </ul>
+  </nav>
+</header>
+<!-- Suggestion API -->
+<script>
+    $(document).mouseup(function(e){
+        var container = $('#search_suggestion');
+        var container_2 = $('#texto_pesquisa');
+
+        if ((!container.is(e.target) && container.has(e.target).length === 0) &&
+            (!container_2.is(e.target) && container_2.has(e.target).length === 0)){
+            container.hide();
+        }
+    });
+
+    function suggestion(e) {
+        delay(function(){
+
+            var search = $("#texto_pesquisa").val();
+
+            pesquisaSuggestion(search, '1272', 'https://www.numismaticavieira.com.br/');
+
+        }, 500);
+    };
+</script>
+<!-- FIM Suggestion API -->  <section class="conteudo">
+    <h1 class="c-h1destaque">Oops... erro 404</h1>
+    <p><strong>A p&aacute;gina que voc&ecirc; solicitou n&atilde;o est&aacute; mais aqui.</strong><br>
+      Navegue pelo menu acima e encontre outra oferta.</p>
+  </section>
+  <!-- RODAPE [ menu + redes sociais + selo avaliacao + contato + formas de pagamento + certificados ] -->
+  <footer class="footer" xmlns="http://www.w3.org/1999/html">
+  <form ng-if="!pageCheckout" name="f_newsletter" id="f_newsletter" action="post_newsletter.php" method="post" onsubmit="javascript: return frm_gravarMailing(this);">
+    <fieldset>
+      <p>Mantenha-se atualizado sobre as nossas ofertas e promo&ccedil;&otilde;es.<br>
+        <strong>Assine a nossa newsletter!</strong></p>
+      <input required name="nome" class="newsletter" placeholder="Nome" size="20" type="text">
+      <input required name="email" class="newsletter" placeholder="Email" size="20" type="email">
+      <input type="hidden" name="id_loja" value="1272">
+      <input name="f_gravar" value="Cadastrar" class="bton_default" type="submit">
+    </fieldset>
+  </form>
+  <div class="f_container">
+    <div ng-if="!pageCheckout" class="f_rodape">
+		<dl>
+        <dt>Central do Cliente</dt>
+                  <dd class="f_dd f_sac"><strong>SAC</strong> <span>(21) <strong>3199-0167</strong></span></dd>
+                        <dd class="f_dd"><small>email: atendimento@numismaticavieira.com.br</small></dd>
+        <dd class="f_dd f_loja">
+          <span class="f_lojaNome"><strong>Numismática Vieira</strong></span>
+          <span class="f_lojaLocal"><span>Rua do Rosário, 61 Loja - D - Centro - CEP 20041-004&nbsp;</span>Rio de Janeiro-RJ</span>
+                      <span class="f_lojaHorario"><strong>Hor&aacute;rio de Atendimento:</strong><br>
+            <span>Segunda &agrave; Sexta das 09:00 &agrave;s 17:00 horas</span>
+          </span>
+                                <small><strong>CNPJ:</strong> 32.367.617/0001-36</small>
+                  </dd>
+      </dl>
+      <dl class="f_menu">
+        <dt>Tire suas d&uacute;vidas</dt>
+        <dd class="f_dd"><a href="quem-somos.php">Sobre a empresa</a></dd>
+        <dd class="f_dd"><a href="fale-conosco.php">Central de Atendimento</a></dd>
+        <dd class="f_dd"><a href="compra-segura.php">Compra Segura</a></dd>
+        <dd class="f_dd"><a href="formas-pagamento.php">Formas de Pagamento</a></dd>
+        <dd class="f_dd"><a href="trocas-devolucoes.php">Trocas e Devolu&ccedil;&otilde;es</a></dd>
+        <dd class="f_dd"><a href="localizacao.php">Localiza&ccedil;&atilde;o</a></dd>
+          <dd class="f_dd"><a href="politica-privacidade.php">Pol&iacute;tica de Privacidade</a></dd>
+      </dl>
+      <dl class="f_redessociais">
+        <dt>Siga-nos</dt>
+		  <dd  class="f_dd">
+		  <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+        <div class="fb-page" data-href="https://www.facebook.com/Cedulas" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Cedulas" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Cedulas">Numismatica Vieira</a></blockquote></div>
+		  </dd>
+        <dd class="f_dd"  style="margin-top: 1rem;">
+                  </dd>
+      </dl>
+      <dl class="f_avaliacao" onclick="navegaAvaliacao()" onmouseover="" style="cursor: pointer;">
+                  <span class="s_selo">
+            <div class="s_logo"></div>
+            <div class="s_qualificacao s_Diamante">
+              <style>
+                .footer .p_nota strong:after{width:96%}
+              </style>
+              <span class="p_base">
+                  <span class="p_nota"><strong></strong></span>
+              </span>
+              <span class="p_info"><strong>9,6</strong> <em>(4333 avalia&ccedil;&otilde;es)</em></span>
+              <small>&#164; desde 2013 &#164;</small>
+            </div>
+          </span>
+              </dl>
+    </div>
+  </div>
+  <div class="f_bandeiras">
+    <dl class="f_pgto">
+      <dt>Formas de Pagamento</dt>
+      <dd class="f_dd"><ul>
+	        <li class="f_pgto6"><img loading="lazy" width="28px" height="28px" src="https://www.ecompleto.com.br/i/fpagto/svg/6.svg" alt="VISA" border="0"></li>
+            <li class="f_pgto7"><img loading="lazy" width="28px" height="28px" src="https://www.ecompleto.com.br/i/fpagto/svg/7.svg" alt="MASTERCARD" border="0"></li>
+            <li class="f_pgto55"><img loading="lazy" width="28px" height="28px" src="https://www.ecompleto.com.br/i/fpagto/svg/55.svg" alt="AMEX" border="0"></li>
+            <li class="f_pgto118"><img loading="lazy" width="28px" height="28px" src="https://www.ecompleto.com.br/i/fpagto/svg/118.svg" alt="JCB" border="0"></li>
+            <li class="f_pgto8"><img loading="lazy" width="28px" height="28px" src="https://www.ecompleto.com.br/i/fpagto/svg/8.svg" alt="BOLETO BANCÁRIO" border="0"></li>
+            <li class="f_pgto103"><img loading="lazy" width="28px" height="28px" src="https://www.ecompleto.com.br/i/fpagto/svg/103.svg" alt="ELO" border="0"></li>
+            <li class="f_pgto61"><img loading="lazy" width="28px" height="28px" src="https://www.ecompleto.com.br/i/fpagto/svg/61.svg" alt="ItauShopLine" border="0"></li>
+            <li class="f_pgto76"><img loading="lazy" width="28px" height="28px" src="https://www.ecompleto.com.br/i/fpagto/svg/76.svg" alt="DEPÓSITO ITAÚ" border="0"></li>
+            <li class="f_pgto311"><img loading="lazy" width="28px" height="28px" src="https://www.ecompleto.com.br/i/fpagto/svg/311.svg" alt="PIX" border="0"></li>
+            </ul></dd>
+    </dl>
+    <dl class="f_certificados">
+      <dt>Certificados</dt>
+      <dd class="f_dd">
+        <ul>
+          <li ng-if="infoloja.fcontrol == 't'" class="f_fcontrol">
+              <img loading="lazy" src="https://www.ecompletocdn.com.br/img/rodape/fcontrol.svg">
+          </li>
+          <li class="f_rapidssl">
+              <img loading="lazy" width="100px" height="60px" src="https://www.ecompletocdn.com.br/img/rodape/rapidssl_seal.svg" border="0">
+            </li>
+          <li class="f_ecompleto"><a target="_blank" href="http://www.e-completo.com.br/?utm_source=Numismática Vieira&amp;utm_medium=logorodape&amp;utm_campaign=CreditosSite" title="este site foi desenvolvido por E-COMPLETO ECOMMERCE" alt="E-COMPLETO, Desenvolvimento de Ecommerce. Lojas Virtuais, Solu&ccedil;&atilde;o de E-commerce para Micro, pequenas, m&eacute;dias e grandes empresas">
+              <img loading="lazy" src="https://www.ecompletocdn.com.br/src/img/logo-ecompleto.svg" width="100px" height="60px" border="0">
+            </a></li>
+        </ul>
+      </dd>
+    </dl>
+  </div>
+
+</footer>
+<link rel="stylesheet" href="https://www.ecompletocdn.com.br/loja_core/v1/libs/css/base.min.css?v=1.0.1" type="text/css" />
+<noscript><link rel="stylesheet" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" type="text/css" href="https://www.ecompletocdn.com.br/loja_core/v1/libs/css/base.min.css?v=1.0.1"></noscript>
+<!--INICIO TAGS MANAGER 8 - 404.php --><!-- loja  294 1272  --><!-- Hotjar Tracking Code for http://www.numismaticavieira.com.br/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:570720,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<!-- loja  390 1272  --><script type="text/javascript">
+    window.smartlook||(function(d) {
+    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+    c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+    })(document);
+    smartlook('init', 'f2ed2f0234067878f64d9cc4f94337a4821f8afb');
+</script>
+<!-- loja  1014 1272  --><script>
+  (function (a, b, c, d, e, f, g) {
+    a['CsdmObject'] = e; a[e] = a[e] || function () {
+          (a[e].q = a[e].q || []).push(arguments)
+          }, a[e].l = 1 * new Date(); f = b.createElement(c),
+        g = b.getElementsByTagName(c)[0]; f.async = 1; f.src = d; g.parentNode.insertBefore(f, g)
+    })(window, document, 'script', '//device.clearsale.com.br/m/cs.js', 'csdm');
+  csdm('app', 'ulj6xkep2mkafi6m2xb5');
+  csdm('mode', 'manual');
+  csdm('send');
+</script>
+<!-- A PARTIR DAQUI AS TAGS JAVASCRIPT PADR�ES S�O EXECUTADAS PARA TODAS AS LOJAS --><!--FIM TAGS MANAGER--><span ng-if="!pageCheckout"></span>
+<!-- BLACK FRIDAY FLOATER -->
+<!-- BLACK FRIDAY contador -->
+<!-- AFILIADOS FOOTER -->
+
+<script type="text/javascript">
+  function navegaAvaliacao(){
+    window.open('https://www.oqualificador.com.br/avaliacao_daloja.php?id_loja='+'1272', '_blank');
+  }
+</script></div>
+</body>
+</html>
+<!-- carrega o css completo, javascript e demais bibliotecas -->
+<script src="https://www.ecompletocdn.com.br/loja_core/ecommerce/numismaticavieira/templates/default/js/functions.js" async defer></script>
+<script src="https://www.ecompletocdn.com.br/loja_core/ecommerce/numismaticavieira/templates/default/js/modernizr-2.6.2.min.js" async defer></script>
+<script src="https://www.ecompletocdn.com.br/loja_core/v1/libs/js/fullmodal/js/jquery.loadingModal.min.js" async defer></script>
+<link rel="stylesheet" href="https://www.ecompletocdn.com.br/loja_core/v1/libs/css/owl.carousel.css?v=1.0.0" type="text/css" />
+<link rel="stylesheet" href="https://www.numismaticavieira.com.br/templates/default/css/style.css?v=1.0.1" type="text/css" />
+<link rel="stylesheet" href="https://www.ecompletocdn.com.br/loja_core/ecommerce/numismaticavieira/templates/default/css/mediaqueries.min.css?v=1.0.1" type="text/css" />
+<link rel="stylesheet" href="https://www.ecompletocdn.com.br/loja_core/ecommerce/numismaticavieira/templates/default/css/normalize.min.css?v=1.0.0" type="text/css" />
+<link rel="stylesheet" href="https://www.ecompletocdn.com.br/loja_core/v1/libs/js/sweetalert/dist/sweetalert.min.css" type="text/css" />
+<link rel="stylesheet" href="https://www.ecompletocdn.com.br/loja_core/v1/libs/js/fullmodal/css/jquery.loadingModal.min.css" type="text/css" />
+<link rel="stylesheet" href="https://www.numismaticavieira.com.br/templates/default/css/default.min.css?v=1.0.0" type="text/css" />
+<script>
+  var mobile = 0;
+  (function(a,b){if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4)))mobile = 1})(navigator.userAgent||navigator.vendor||window.opera,'');
+  $(window).scroll(function(){
+    if($(this).width() < 768){
+      if ($(this).scrollTop() > 10){
+        $('#chatwhatsBase').attr("style","display:none");
+        $('#chatWhats').attr("style","position:relative");
+      } else {
+        $('#chatwhatsBase').attr("style","display:block");
+        $('#chatWhats').attr("style","position:fixed");
+      }
+    }
+    if(mobile == 1){
+      document.getElementById('p_comprarFixo').style.display = 'none';
+    }else{
+      if ($(this).scrollTop() > 800){
+        $("embed").attr('wmode','transparent');
+        $('#p_comprarFixo').stop().animate({"top": "-.3rem"});
+        $('#chatWhats').stop().animate({"top": "25rem"});
+        $('#expandechatWhats').stop().animate({"top": "25rem"});
+        $('#recolhechatWhats').stop().animate({"top": "25rem"});
+      } else {
+        $('#p_comprarFixo').stop().animate({"top": "-30rem"});
+        $('#chatWhats').stop().animate({"top": "9rem"});
+        $('#expandechatWhats').stop().animate({"top": "9rem"});
+        $('#recolhechatWhats').stop().animate({"top": "9rem"});
+      }
+    }
+  });
+
+  function controller_qtdeItensCarrinho(obj_target){
+
+    try{
+      //postando dados para validacao back-end
+      $('#'+obj_target).html('<img width="100px" src="https://www.ecompleto.com.br/loja_core/v1/libs/img/loading.svg" class="loadingSVG">');
+      $.post("ajax.php", {controller:'carrinho_qtdeitens', app:'site'}, function(result, status){
+        if(status == 'success'){
+          $('#'+obj_target).html(result);
+        }else{
+          $('#'+obj_target).html('0');
+        }
+      });
+
+      return true;
+    }catch(e){
+      return false;
+    }
+
+  }
+  controller_qtdeItensCarrinho('num_itens_carrinho');
+
+  $(document).ready(function(){
+
+      });
+</script>

@@ -1,0 +1,32 @@
+  <h2>Site Error</h2>
+  <p>An error was encountered while publishing this resource.
+  </p>
+  <p><strong><type 'exceptions.AttributeError'></strong></p>
+
+  Sorry, a site error occurred.<p><p>Traceback (innermost last):</p>
+<ul>
+
+<li>  Module ZPublisher.Publish, line 247, in publish_module_standard</li>
+
+<li>  Module zope.publisher.skinnable, line 46, in setDefaultSkin</li>
+
+</ul><p>AttributeError: adapters
+</p></p>
+  <hr noshade="noshade"/>
+
+  <p>Troubleshooting Suggestions</p>
+
+  <ul>
+  <li>The URL may be incorrect.</li>
+  <li>The parameters passed to this resource may be incorrect.</li>
+  <li>A resource that this resource relies on may be
+      encountering an error.</li>
+  </ul>
+
+  <p>For more detailed information about the error, please
+  refer to the error log.
+  </p>
+
+  <p>If the error persists please contact the site maintainer.
+  Thank you for your patience.
+  </p>
