@@ -12,7 +12,11 @@ app = Flask(__name__)
 
 def load_data():
     global symbols_data
-    symbols_data = None#pdr.nasdaq_trader.get_nasdaq_symbols(timeout=1)
+    try:
+        symbols_data = None
+        symbols_data = pdr.nasdaq_trader.get_nasdaq_symbols()
+    except Exception as e:
+        print(e)
 
     if symbols_data is None:
         print('Não foi possível carregar os dados.')
