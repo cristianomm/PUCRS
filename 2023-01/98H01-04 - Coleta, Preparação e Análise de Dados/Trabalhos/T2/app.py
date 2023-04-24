@@ -19,7 +19,7 @@ def load_data():
         print(e)
 
     if symbols_data is None:
-        print('Não foi possível carregar os dados.')
+        print('Não foi possível carregar os dados da biblioteca.')
         print('Buscando do arquivo local...')
         symbols_data = pd.read_csv('data/symbols.csv')
         symbols_data.reset_index(inplace=True)
