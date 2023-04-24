@@ -6,15 +6,24 @@ Matrícula: 11111871-7
 
 from flask import Flask, request, jsonify, make_response
 import pandas_datareader as pdr
+import pandas as pd
 
 app = Flask(__name__)
 
 def load_data():
     global symbols_data
-    symbols_data = pdr.nasdaq_trader.get_nasdaq_symbols()
+    symbols_data = None#pdr.nasdaq_trader.get_nasdaq_symbols(timeout=1)
+
+    if symbols_data is None:
+        print('Não foi possível carregar os dados.')
+        print('Buscando do arquivo local...')
+        symbols_data = pd.read_csv('data/symbols.csv')
+        symbols_data.reset_index(inplace=True)
+
     symbols_data = symbols_data.rename(
         columns = {
-            'NASDAQ Symbol': 'symbol',
+            'Symbol': 'symbol',
+            'NASDAQ Symbol': 'NASDAQSymbol',
             'Nasdaq Traded': 'isTraded',
             'Security Name': 'name',
             'Listing Exchange': 'exchange',
@@ -75,4 +84,4 @@ def symbol(symbol):
 if __name__ == '__main__':
     print('Iniciando a API...')
     load_data()
-    app.run(debug=False)
+    app.run(debug=True)
