@@ -1,9 +1,15 @@
-import java.util.Collections;
-import java.util.List;
 import java.util.Queue;
 import java.util.Random;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
+/**
+ * Representa um processo individual dentro do anel. 
+ * Cada processo tem um ID único, conhece o próximo processo na sequência e mantém uma fila de mensagens 
+ * a serem processadas. Contém a lógica para processar vários tipos de mensagens, incluindo mensagens de eleição, 
+ * atualização do coordenador e mensagens de shutdown. 
+ * O estado do processo pode ser ativo ou inativo, representando a condição normal ou falha, respectivamente. 
+ * Um processo inativo não processa mensagens.
+ */
 public class Process implements Runnable {
 	private int id;
 	private int processCount;
@@ -54,6 +60,20 @@ public class Process implements Runnable {
 	 * @throws InterruptedException
 	 */
 	private void process() {
+		if(this.hasWork) {
+			
+			try {
+				//simula o processamento...
+				System.out.println("Process Id:" + this.id + " is processing tasks...");
+				Thread.sleep(rand.longs(1, 2000, 4000).findFirst().getAsLong());
+			}catch(Exception e) {}
+			
+			//indica que terminou o processamento...
+			this.hasWork = false;
+		}
+	}
+	
+	private void processMessages() {
 		Message message = messages.poll();
 
 		if(message != null) {
@@ -103,6 +123,7 @@ public class Process implements Runnable {
 
 			this.isActive = true;
 			System.out.println(String.format("Process %d recovered", this.id));
+			this.waitingElection = false;
 			receive(processElection(null));
 		}
 	}	
@@ -112,7 +133,6 @@ public class Process implements Runnable {
 	 * E - eleicao 
 	 * R - resultado de eleicao 
 	 * C - status do coordenador: T ou F
-	 * U - retorno de um dos processos 
 	 * S - mensagem de termino dos processos
 	 * 
 	 * @param message
@@ -194,7 +214,6 @@ public class Process implements Runnable {
 					else {
 						message.coordinatorStatus = 'F';
 					}
-
 					message.votes.add(this.id);
 				}
 			}
@@ -219,22 +238,38 @@ public class Process implements Runnable {
 	}
 
 	private Message processShutdown(Message message) {
-		if(message.initiatorId == this.id) {
-			if(message.votes.size() < (this.processCount + message.finished.size())) {
-				message.votes.add(this.id);
-			}
-			else {
-				this.isRunning = false;
-				this.isActive = false;
-				System.out.println(String.format("Process %d is finishing...", this.id));
-				message.messageType = 'X';
-				message.finished.add(this.id);
-			}
-		}
-		else {
-			message.votes.add(this.id);
-		}		
-		return message;
+	    if (message.initiatorId == this.id) {
+	        // caso todos processos tenham recebido a msg de finalizacao
+	        if (message.votes.size() == this.processCount && message.finished.size() == this.processCount) {
+	            // para de enviar a msg
+	            message.messageType = 'X';
+	        } else {
+	            // adiciona o voto deste, caso ainda nao tenha votado
+	            message.votes.add(this.id);
+	        }
+
+	        // finaliza, caso ainda esteja rodando e ja foi sinalizado para parar
+	        if (this.isRunning && message.votes.size() == this.processCount) {
+	            
+	            this.isRunning = false;
+	            this.isActive = false;
+	            System.out.println(String.format("************************\t\tProcess %d is finishing...\t\t************************", this.id));
+	            message.finished.add(this.id);
+	        }
+	    } else {
+	        // caso nao tenha sido este, adiciona o voto
+	        message.votes.add(this.id);
+
+	        if (message.votes.size() == this.processCount && this.isRunning) {
+	            
+	            this.isRunning = false;
+	            this.isActive = false;
+	            System.out.println(String.format("************************\t\tProcess %d is finishing...\t\t************************", this.id));
+	            message.finished.add(this.id);
+	        }
+	    }
+
+	    return message;
 	}
 
 	private void checkProcess() {
@@ -262,7 +297,10 @@ public class Process implements Runnable {
 			//verifica se o processo tem um coordenador.
 			// Caso nao, inicia uma eleicao
 			checkProcess();
-
+			
+			//processa as mensagens
+			processMessages();
+			
 			//simula processamento, caso tenha sido ativado
 			process();
 
@@ -270,11 +308,11 @@ public class Process implements Runnable {
 			fail();
 
 			try {
-				Thread.sleep(1000);
+				Thread.sleep(2000);
 			}catch(InterruptedException e) {}
 		}
 		this.isActive = false;
 		this.isRunning = false;
-		System.out.println("Process " + this.id + " finished.");
+		System.out.println("************************\t\tProcess " + this.id + " finished.\t\t************************");
 	}
 }

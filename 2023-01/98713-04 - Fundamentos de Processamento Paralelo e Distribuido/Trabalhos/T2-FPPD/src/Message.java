@@ -1,9 +1,14 @@
 import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Random;
 import java.util.Set;
 
+/**
+ * Representa uma única mensagem que pode ser passada entre processos. Cada mensagem tem um tipo 
+ * que determina como ela deve ser processada pelos processos. Os tipos incluem 'E' para eleição, 
+ * 'R' para resultado da eleição, 'C' para status do coordenador, 'S' para shutdown e 'X' para 
+ * interromper a transmissão da mensagem. Além disso, a classe Message rastreia informações adicionais
+ * como o status do coordenador e os votos recebidos por uma mensagem.
+ */
 public class Message {
 	
 	public int messageId;
@@ -31,5 +36,4 @@ public class Message {
 		return "Message [id=" + this.messageId + ", messageType=" + messageType + ", coordinatorStatus=" + coordinatorStatus + ", coordinatorId="
 				+ coordinatorId + ", initiatorId=" + initiatorId + ", votes=" + votes + ", finished=" + finished + "]";
 	}
-
 }

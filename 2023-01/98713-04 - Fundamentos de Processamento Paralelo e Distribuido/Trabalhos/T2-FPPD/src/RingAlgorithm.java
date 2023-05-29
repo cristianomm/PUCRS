@@ -2,6 +2,13 @@ import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+
+/**
+ * Classe principal que inicializa e controla a execução dos processos em um ambiente de anel.
+ * Ela inicializa os processos, define a configuração do anel e controla a execução dos processos
+ * auxiliares, WorkSender e FailSender. 
+ * Após um determinado tempo, envia uma mensagem de shutdown para encerrar a execução.
+ */
 public class RingAlgorithm {
 
 	public static void main(String[] args) throws InterruptedException {
