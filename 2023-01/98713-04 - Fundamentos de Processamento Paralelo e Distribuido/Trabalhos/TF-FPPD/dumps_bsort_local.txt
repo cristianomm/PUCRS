@@ -1,0 +1,667 @@
+BSORT - Local
+
+##################################################################################### 2
+Master[0]: sending new work (task 4998) to slave 1.
+Master[0]: message received from slave 1 [1][10000].
+Master[0]: sending new work (task 4999) to slave 1.
+Master[0]: message received from slave 1 [1][10000].
+Master[0]: sending KILLTAG to slave 1.
+
+Execution time in seconds: 791.931651
+
+
+Slave[1]: kill message revceived from master. Bye bye!
+
+ Slave[1] Sorted 5000 tasks in 791.618682 seconds (mean per task 0.158324).
+
+
+
+##################################################################################### 4
+Master[0]: sending new work (task 4998) to slave 3.
+Master[0]: message received from slave 2 [1][10000].
+Master[0]: sending new work (task 4999) to slave 2.
+Master[0]: message received from slave 1 [1][10000].
+Master[0]: sending KILLTAG to slave 1.
+Slave[1]: kill message revceived from master. Bye bye!
+
+ Slave[1] Sorted 1675 tasks in 311.398749 seconds (mean per task 0.185910).
+
+Master[0]: message received from slave 3 [1][10000].
+Master[0]: sending KILLTAG to slave 3.
+Slave[3]: kill message revceived from master. Bye bye!
+
+ Slave[3] Sorted 1661 tasks in 311.471231 seconds (mean per task 0.187520).
+
+Master[0]: message received from slave 2 [1][10000].
+Master[0]: sending KILLTAG to slave 2.
+
+Execution time in seconds: 311.615506
+
+
+Slave[2]: kill message revceived from master. Bye bye!
+
+ Slave[2] Sorted 1664 tasks in 311.505851 seconds (mean per task 0.187203).
+
+
+
+##################################################################################### 6
+Master[0]: message received from slave 2 [1][10000].
+Master[0]: sending new work (task 4998) to slave 2.
+Master[0]: message received from slave 3 [1][10000].
+Master[0]: sending new work (task 4999) to slave 3.
+Master[0]: message received from slave 1 [1][10000].
+Master[0]: sending KILLTAG to slave 1.
+Slave[1]: kill message revceived from master. Bye bye!
+
+ Slave[1] Sorted 995 tasks in 225.582094 seconds (mean per task 0.226716).
+
+Master[0]: message received from slave 5 [1][10000].
+Master[0]: sending KILLTAG to slave 5.
+Slave[5]: kill message revceived from master. Bye bye!
+
+ Slave[5] Sorted 1004 tasks in 225.616859 seconds (mean per task 0.224718).
+
+Master[0]: message received from slave 4 [1][10000].
+Master[0]: sending KILLTAG to slave 4.
+Slave[4]: kill message revceived from master. Bye bye!
+
+ Slave[4] Sorted 998 tasks in 225.642488 seconds (mean per task 0.226095).
+
+Master[0]: message received from slave 2 [1][10000].
+Master[0]: sending KILLTAG to slave 2.
+Slave[2]: kill message revceived from master. Bye bye!
+
+ Slave[2] Sorted 999 tasks in 225.665932 seconds (mean per task 0.225892).
+
+Master[0]: message received from slave 3 [1][10000].
+Master[0]: sending KILLTAG to slave 3.
+
+Execution time in seconds: 225.759620
+
+
+Slave[3]: kill message revceived from master. Bye bye!
+
+ Slave[3] Sorted 1004 tasks in 225.653142 seconds (mean per task 0.224754).
+
+
+##################################################################################### 8
+Master[0]: sending new work (task 4997) to slave 2.
+Master[0]: message received from slave 6 [1][10000].
+Master[0]: sending new work (task 4998) to slave 6.
+Master[0]: message received from slave 5 [1][10000].
+Master[0]: sending new work (task 4999) to slave 5.
+Master[0]: message received from slave 3 [1][10000].
+Master[0]: sending KILLTAG to slave 3.
+Slave[3]: kill message revceived from master. Bye bye!
+
+ Slave[3] Sorted 719 tasks in 185.004648 seconds (mean per task 0.257308).
+
+Master[0]: message received from slave 7 [1][10000].
+Master[0]: sending KILLTAG to slave 7.
+Slave[7]: kill message revceived from master. Bye bye!
+
+ Slave[7] Sorted 717 tasks in 185.006419 seconds (mean per task 0.258028).
+
+Master[0]: message received from slave 1 [1][10000].
+Master[0]: sending KILLTAG to slave 1.
+Slave[1]: kill message revceived from master. Bye bye!
+
+ Slave[1] Sorted 713 tasks in 185.017277 seconds (mean per task 0.259491).
+
+Master[0]: message received from slave 4 [1][10000].
+Master[0]: sending KILLTAG to slave 4.
+Slave[4]: kill message revceived from master. Bye bye!
+
+ Slave[4] Sorted 713 tasks in 185.029718 seconds (mean per task 0.259509).
+
+Master[0]: message received from slave 2 [1][10000].
+Master[0]: sending KILLTAG to slave 2.
+Slave[2]: kill message revceived from master. Bye bye!
+
+ Slave[2] Sorted 718 tasks in 185.078076 seconds (mean per task 0.257769).
+
+Master[0]: message received from slave 6 [1][10000].
+Master[0]: sending KILLTAG to slave 6.
+Slave[6]: kill message revceived from master. Bye bye!
+
+ Slave[6] Sorted 710 tasks in 185.207306 seconds (mean per task 0.260855).
+
+Master[0]: message received from slave 5 [1][10000].
+Master[0]: sending KILLTAG to slave 5.
+
+Execution time in seconds: 185.305187
+
+
+Slave[5]: kill message revceived from master. Bye bye!
+
+ Slave[5] Sorted 710 tasks in 185.246744 seconds (mean per task 0.260911).
+
+
+##################################################################################### 12
+Master[0]: message received from slave 1 [1][10000].
+Master[0]: sending new work (task 4997) to slave 1.
+Master[0]: message received from slave 8 [1][10000].
+Master[0]: sending new work (task 4998) to slave 8.
+Master[0]: message received from slave 6 [1][10000].
+Master[0]: sending new work (task 4999) to slave 6.
+Master[0]: message received from slave 9 [1][10000].
+Master[0]: sending KILLTAG to slave 9.
+Slave[9]: kill message revceived from master. Bye bye!
+
+ Slave[9] Sorted 438 tasks in 154.698102 seconds (mean per task 0.353192).
+
+Master[0]: message received from slave 4 [1][10000].
+Master[0]: sending KILLTAG to slave 4.
+Slave[4]: kill message revceived from master. Bye bye!
+
+ Slave[4] Sorted 438 tasks in 154.726988 seconds (mean per task 0.353258).
+
+Master[0]: message received from slave 11 [1][10000].
+Master[0]: sending KILLTAG to slave 11.
+Slave[11]: kill message revceived from master. Bye bye!
+
+ Slave[11] Sorted 477 tasks in 154.744863 seconds (mean per task 0.324413).
+
+Master[0]: message received from slave 2 [1][10000].
+Master[0]: sending KILLTAG to slave 2.
+Slave[2]: kill message revceived from master. Bye bye!
+
+ Slave[2] Sorted 475 tasks in 154.795075 seconds (mean per task 0.325884).
+
+Master[0]: message received from slave 5 [1][10000].
+Master[0]: sending KILLTAG to slave 5.
+Slave[5]: kill message revceived from master. Bye bye!
+
+ Slave[5] Sorted 437 tasks in 154.791682 seconds (mean per task 0.354214).
+
+Master[0]: message received from slave 7 [1][10000].
+Master[0]: sending KILLTAG to slave 7.
+Slave[7]: kill message revceived from master. Bye bye!
+
+ Slave[7] Sorted 478 tasks in 154.842181 seconds (mean per task 0.323938).
+
+Master[0]: message received from slave 10 [1][10000].
+Master[0]: sending KILLTAG to slave 10.
+Slave[10]: kill message revceived from master. Bye bye!
+
+ Slave[10] Sorted 453 tasks in 154.855497 seconds (mean per task 0.341844).
+
+Master[0]: message received from slave 3 [1][10000].
+Master[0]: sending KILLTAG to slave 3.
+Slave[3]: kill message revceived from master. Bye bye!
+
+ Slave[3] Sorted 437 tasks in 154.867902 seconds (mean per task 0.354389).
+
+Master[0]: message received from slave 1 [1][10000].
+Master[0]: sending KILLTAG to slave 1.
+Slave[1]: kill message revceived from master. Bye bye!
+
+ Slave[1] Sorted 455 tasks in 155.001585 seconds (mean per task 0.340663).
+
+Master[0]: message received from slave 8 [1][10000].
+Master[0]: sending KILLTAG to slave 8.
+Slave[8]: kill message revceived from master. Bye bye!
+
+ Slave[8] Sorted 456 tasks in 155.009406 seconds (mean per task 0.339933).
+
+Master[0]: message received from slave 6 [1][10000].
+Master[0]: sending KILLTAG to slave 6.
+Slave[6]: kill message revceived from master. Bye bye!
+
+ Slave[6] Sorted 456 tasks in 155.039057 seconds (mean per task 0.339998).
+
+
+Execution time in seconds: 155.141301
+
+
+
+##################################################################################### 16
+Master[0]: sending new work (task 4996) to slave 8.
+Master[0]: message received from slave 12 [1][10000].
+Master[0]: sending new work (task 4997) to slave 12.
+Master[0]: message received from slave 7 [1][10000].
+Master[0]: sending new work (task 4998) to slave 7.
+Master[0]: message received from slave 13 [1][10000].
+Master[0]: sending new work (task 4999) to slave 13.
+Master[0]: message received from slave 14 [1][10000].
+Master[0]: sending KILLTAG to slave 14.
+Slave[14]: kill message revceived from master. Bye bye!
+
+ Slave[14] Sorted 353 tasks in 155.099600 seconds (mean per task 0.439376).
+
+Master[0]: message received from slave 3 [1][10000].
+Master[0]: sending KILLTAG to slave 3.
+Slave[3]: kill message revceived from master. Bye bye!
+
+ Slave[3] Sorted 304 tasks in 154.825129 seconds (mean per task 0.509293).
+
+Master[0]: message received from slave 15 [1][10000].
+Master[0]: sending KILLTAG to slave 15.
+Slave[15]: kill message revceived from master. Bye bye!
+
+ Slave[15] Sorted 353 tasks in 155.075115 seconds (mean per task 0.439306).
+
+Master[0]: message received from slave 4 [1][10000].
+Master[0]: sending KILLTAG to slave 4.
+Slave[4]: kill message revceived from master. Bye bye!
+
+ Slave[4] Sorted 345 tasks in 155.136258 seconds (mean per task 0.449670).
+
+Master[0]: message received from slave 11 [1][10000].
+Master[0]: sending KILLTAG to slave 11.
+Slave[11]: kill message revceived from master. Bye bye!
+
+ Slave[11] Sorted 342 tasks in 155.262607 seconds (mean per task 0.453984).
+
+Master[0]: message received from slave 10 [1][10000].
+Master[0]: sending KILLTAG to slave 10.
+Slave[10]: kill message revceived from master. Bye bye!
+
+ Slave[10] Sorted 355 tasks in 155.170606 seconds (mean per task 0.437100).
+
+Master[0]: message received from slave 2 [1][10000].
+Master[0]: sending KILLTAG to slave 2.
+Slave[2]: kill message revceived from master. Bye bye!
+
+ Slave[2] Sorted 308 tasks in 155.366217 seconds (mean per task 0.504436).
+
+Master[0]: message received from slave 8 [1][10000].
+Master[0]: sending KILLTAG to slave 8.
+Slave[8]: kill message revceived from master. Bye bye!
+
+ Slave[8] Sorted 334 tasks in 155.083787 seconds (mean per task 0.464323).
+
+Master[0]: message received from slave 5 [1][10000].
+Master[0]: sending KILLTAG to slave 5.
+Slave[5]: kill message revceived from master. Bye bye!
+
+ Slave[5] Sorted 332 tasks in 155.367294 seconds (mean per task 0.467974).
+
+Master[0]: message received from slave 6 [1][10000].
+Master[0]: sending KILLTAG to slave 6.
+Slave[6]: kill message revceived from master. Bye bye!
+
+ Slave[6] Sorted 361 tasks in 155.243495 seconds (mean per task 0.430037).
+
+Master[0]: message received from slave 9 [1][10000].
+Master[0]: sending KILLTAG to slave 9.
+Slave[9]: kill message revceived from master. Bye bye!
+
+ Slave[9] Sorted 286 tasks in 155.263132 seconds (mean per task 0.542878).
+
+Master[0]: message received from slave 12 [1][10000].
+Master[0]: sending KILLTAG to slave 12.
+Slave[12]: kill message revceived from master. Bye bye!
+
+ Slave[12] Sorted 349 tasks in 155.287494 seconds (mean per task 0.444950).
+
+Master[0]: message received from slave 1 [1][10000].
+Master[0]: sending KILLTAG to slave 1.
+Slave[1]: kill message revceived from master. Bye bye!
+
+ Slave[1] Sorted 317 tasks in 155.285328 seconds (mean per task 0.489859).
+
+Master[0]: message received from slave 7 [1][10000].
+Master[0]: sending KILLTAG to slave 7.
+Slave[7]: kill message revceived from master. Bye bye!
+
+ Slave[7] Sorted 338 tasks in 155.488963 seconds (mean per task 0.460027).
+
+Master[0]: message received from slave 13 [1][10000].
+Master[0]: sending KILLTAG to slave 13.
+
+Execution time in seconds: 156.882070
+
+
+Slave[13]: kill message revceived from master. Bye bye!
+
+ Slave[13] Sorted 323 tasks in 155.623182 seconds (mean per task 0.481806).
+
+
+
+##################################################################################### 24
+Master[0]: message received from slave 15 [1][10000].
+Master[0]: sending new work (task 4997) to slave 15.
+Master[0]: message received from slave 13 [1][10000].
+Master[0]: sending new work (task 4998) to slave 13.
+Master[0]: message received from slave 23 [1][10000].
+Master[0]: sending new work (task 4999) to slave 23.
+Master[0]: message received from slave 1 [1][10000].
+Master[0]: sending KILLTAG to slave 1.
+Slave[1]: kill message revceived from master. Bye bye!
+
+ Slave[1] Sorted 218 tasks in 148.173364 seconds (mean per task 0.679694).
+
+Master[0]: message received from slave 17 [1][10000].
+Master[0]: sending KILLTAG to slave 17.
+Slave[17]: kill message revceived from master. Bye bye!
+
+ Slave[17] Sorted 204 tasks in 145.700452 seconds (mean per task 0.714218).
+
+Master[0]: message received from slave 11 [1][10000].
+Master[0]: sending KILLTAG to slave 11.
+Slave[11]: kill message revceived from master. Bye bye!
+
+ Slave[11] Sorted 221 tasks in 148.030240 seconds (mean per task 0.669820).
+
+Master[0]: message received from slave 8 [1][10000].
+Master[0]: sending KILLTAG to slave 8.
+Master[0]: message received from slave 21 [1][10000].
+Master[0]: sending KILLTAG to slave 21.
+Slave[21]: kill message revceived from master. Bye bye!
+
+ Slave[21] Sorted 220 tasks in 147.956019 seconds (mean per task 0.672527).
+
+Master[0]: message received from slave 14 [1][10000].
+Master[0]: sending KILLTAG to slave 14.
+Slave[14]: kill message revceived from master. Bye bye!
+
+ Slave[14] Sorted 221 tasks in 148.460787 seconds (mean per task 0.671768).
+
+Slave[8]: kill message revceived from master. Bye bye!
+
+ Slave[8] Sorted 218 tasks in 148.186429 seconds (mean per task 0.679754).
+
+Master[0]: message received from slave 6 [1][10000].
+Master[0]: sending KILLTAG to slave 6.
+Slave[6]: kill message revceived from master. Bye bye!
+
+ Slave[6] Sorted 220 tasks in 148.020371 seconds (mean per task 0.672820).
+
+Master[0]: message received from slave 19 [1][10000].
+Master[0]: sending KILLTAG to slave 19.
+Slave[19]: kill message revceived from master. Bye bye!
+
+ Slave[19] Sorted 214 tasks in 148.377922 seconds (mean per task 0.693355).
+
+Master[0]: message received from slave 10 [1][10000].
+Master[0]: sending KILLTAG to slave 10.
+Slave[10]: kill message revceived from master. Bye bye!
+
+ Slave[10] Sorted 221 tasks in 147.964113 seconds (mean per task 0.669521).
+
+Master[0]: message received from slave 2 [1][10000].
+Master[0]: sending KILLTAG to slave 2.
+Slave[2]: kill message revceived from master. Bye bye!
+
+ Slave[2] Sorted 218 tasks in 148.558301 seconds (mean per task 0.681460).
+
+Master[0]: message received from slave 18 [1][10000].
+Master[0]: sending KILLTAG to slave 18.
+Master[0]: message received from slave 22 [1][10000].
+Master[0]: sending KILLTAG to slave 22.
+Slave[22]: kill message revceived from master. Bye bye!
+
+ Slave[22] Sorted 213 tasks in 148.268234 seconds (mean per task 0.696095).
+
+Slave[18]: kill message revceived from master. Bye bye!
+
+ Slave[18] Sorted 221 tasks in 148.246485 seconds (mean per task 0.670799).
+
+Master[0]: message received from slave 20 [1][10000].
+Master[0]: sending KILLTAG to slave 20.
+Slave[20]: kill message revceived from master. Bye bye!
+
+ Slave[20] Sorted 221 tasks in 148.402680 seconds (mean per task 0.671505).
+
+Master[0]: message received from slave 9 [1][10000].
+Master[0]: sending KILLTAG to slave 9.
+Master[0]: message received from slave 5 [1][10000].
+Master[0]: sending KILLTAG to slave 5.
+Slave[5]: kill message revceived from master. Bye bye!
+
+ Slave[5] Sorted 214 tasks in 148.409298 seconds (mean per task 0.693501).
+
+Master[0]: message received from slave 7 [1][10000].
+Master[0]: sending KILLTAG to slave 7.
+Slave[7]: kill message revceived from master. Bye bye!
+
+ Slave[7] Sorted 218 tasks in 148.636909 seconds (mean per task 0.681821).
+
+Slave[9]: kill message revceived from master. Bye bye!
+
+ Slave[9] Sorted 218 tasks in 148.184808 seconds (mean per task 0.679747).
+
+Master[0]: message received from slave 4 [1][10000].
+Master[0]: sending KILLTAG to slave 4.
+Master[0]: message received from slave 12 [1][10000].
+Master[0]: sending KILLTAG to slave 12.
+Slave[12]: kill message revceived from master. Bye bye!
+
+ Slave[12] Sorted 215 tasks in 148.565912 seconds (mean per task 0.691004).
+
+Slave[4]: kill message revceived from master. Bye bye!
+
+ Slave[4] Sorted 218 tasks in 148.394456 seconds (mean per task 0.680709).
+
+Master[0]: message received from slave 3 [1][10000].
+Master[0]: sending KILLTAG to slave 3.
+Slave[3]: kill message revceived from master. Bye bye!
+
+ Slave[3] Sorted 213 tasks in 148.702639 seconds (mean per task 0.698134).
+
+Master[0]: message received from slave 15 [1][10000].
+Master[0]: sending KILLTAG to slave 15.
+Master[0]: message received from slave 13 [1][10000].
+Master[0]: sending KILLTAG to slave 13.
+Slave[13]: kill message revceived from master. Bye bye!
+
+ Slave[13] Sorted 222 tasks in 148.757985 seconds (mean per task 0.670081).
+
+Slave[15]: kill message revceived from master. Bye bye!
+
+ Slave[15] Sorted 219 tasks in 148.571095 seconds (mean per task 0.678407).
+
+Master[0]: message received from slave 16 [1][10000].
+Master[0]: sending KILLTAG to slave 16.
+Slave[16]: kill message revceived from master. Bye bye!
+
+ Slave[16] Sorted 215 tasks in 148.491076 seconds (mean per task 0.690656).
+
+Master[0]: message received from slave 23 [1][10000].
+Master[0]: sending KILLTAG to slave 23.
+
+Execution time in seconds: 152.376969
+
+
+Slave[23]: kill message revceived from master. Bye bye!
+
+ Slave[23] Sorted 218 tasks in 148.464297 seconds (mean per task 0.681029).
+
+
+
+##################################################################################### 32
+Master[0]: sending new work (task 4997) to slave 25.
+Master[0]: message received from slave 2 [1][10000].
+Master[0]: sending new work (task 4998) to slave 2.
+Master[0]: message received from slave 26 [1][10000].
+Master[0]: sending new work (task 4999) to slave 26.
+Master[0]: message received from slave 21 [1][10000].
+Master[0]: sending KILLTAG to slave 21.
+Slave[21]: kill message revceived from master. Bye bye!
+
+ Slave[21] Sorted 162 tasks in 146.416320 seconds (mean per task 0.903804).
+
+Master[0]: message received from slave 8 [1][10000].
+Master[0]: sending KILLTAG to slave 8.
+Slave[8]: kill message revceived from master. Bye bye!
+
+Master[0]: message received from slave 11 [1][10000].
+Master[0]: sending KILLTAG to slave 11.
+ Slave[8] Sorted 162 tasks in 146.110368 seconds (mean per task 0.901916).
+
+Slave[11]: kill message revceived from master. Bye bye!
+
+ Slave[11] Sorted 163 tasks in 146.469744 seconds (mean per task 0.898587).
+
+Master[0]: message received from slave 19 [1][10000].
+Master[0]: sending KILLTAG to slave 19.
+Slave[19]: kill message revceived from master. Bye bye!
+
+ Slave[19] Sorted 162 tasks in 146.666067 seconds (mean per task 0.905346).
+
+Master[0]: message received from slave 31 [1][10000].
+Master[0]: sending KILLTAG to slave 31.
+Slave[31]: kill message revceived from master. Bye bye!
+
+ Slave[31] Sorted 161 tasks in 146.446192 seconds (mean per task 0.909604).
+
+Master[0]: message received from slave 17 [1][10000].
+Master[0]: sending KILLTAG to slave 17.
+Slave[17]: kill message revceived from master. Bye bye!
+
+ Slave[17] Sorted 160 tasks in 146.644068 seconds (mean per task 0.916525).
+
+Master[0]: message received from slave 30 [1][10000].
+Master[0]: sending KILLTAG to slave 30.
+Slave[30]: kill message revceived from master. Bye bye!
+
+ Slave[30] Sorted 161 tasks in 146.855392 seconds (mean per task 0.912145).
+
+Master[0]: message received from slave 5 [1][10000].
+Master[0]: sending KILLTAG to slave 5.
+Slave[5]: kill message revceived from master. Bye bye!
+
+ Slave[5] Sorted 161 tasks in 146.421270 seconds (mean per task 0.909449).
+
+Master[0]: message received from slave 15 [1][10000].
+Master[0]: sending KILLTAG to slave 15.
+Master[0]: message received from slave 10 [1][10000].
+Master[0]: sending KILLTAG to slave 10.
+Slave[10]: kill message revceived from master. Bye bye!
+
+ Slave[10] Sorted 162 tasks in 146.653786 seconds (mean per task 0.905270).
+
+Master[0]: message received from slave 20 [1][10000].
+Master[0]: sending KILLTAG to slave 20.
+Slave[20]: kill message revceived from master. Bye bye!
+
+ Slave[20] Sorted 160 tasks in 146.783941 seconds (mean per task 0.917400).
+
+Slave[15]: kill message revceived from master. Bye bye!
+
+ Slave[15] Sorted 162 tasks in 146.842371 seconds (mean per task 0.906434).
+
+Master[0]: message received from slave 24 [1][10000].
+Master[0]: sending KILLTAG to slave 24.
+Master[0]: message received from slave 14 [1][10000].
+Master[0]: sending KILLTAG to slave 14.
+Slave[14]: kill message revceived from master. Bye bye!
+
+ Slave[14] Sorted 161 tasks in 146.486050 seconds (mean per task 0.909851).
+
+Master[0]: message received from slave 9 [1][10000].
+Slave[24]: kill message revceived from master. Bye bye!
+
+ Slave[24] Sorted 160 tasks in 146.933862 seconds (mean per task 0.918337).
+
+Master[0]: sending KILLTAG to slave 9.
+Slave[9]: kill message revceived from master. Bye bye!
+
+ Slave[9] Sorted 162 tasks in 146.510251 seconds (mean per task 0.904384).
+
+Master[0]: message received from slave 1 [1][10000].
+Master[0]: sending KILLTAG to slave 1.
+Master[0]: message received from slave 28 [1][10000].
+Master[0]: sending KILLTAG to slave 28.
+Master[0]: message received from slave 22 [1][10000].
+Slave[28]: kill message revceived from master. Bye bye!
+
+ Slave[28] Sorted 161 tasks in 146.952106 seconds (mean per task 0.912746).
+
+Slave[1]: kill message revceived from master. Bye bye!
+
+ Slave[1] Sorted 158 tasks in 146.695481 seconds (mean per task 0.928452).
+
+Master[0]: sending KILLTAG to slave 22.
+Slave[22]: kill message revceived from master. Bye bye!
+
+ Slave[22] Sorted 161 tasks in 147.027947 seconds (mean per task 0.913217).
+
+Master[0]: message received from slave 18 [1][10000].
+Master[0]: sending KILLTAG to slave 18.
+Slave[18]: kill message revceived from master. Bye bye!
+
+ Slave[18] Sorted 162 tasks in 146.803573 seconds (mean per task 0.906195).
+
+Master[0]: message received from slave 7 [1][10000].
+Master[0]: sending KILLTAG to slave 7.
+Master[0]: message received from slave 16 [1][10000].
+Master[0]: sending KILLTAG to slave 16.
+Master[0]: message received from slave 27 [1][10000].
+Slave[16]: kill message revceived from master. Bye bye!
+
+ Slave[16] Sorted 163 tasks in 147.038245 seconds (mean per task 0.902075).
+
+Master[0]: sending KILLTAG to slave 27.
+Slave[27]: kill message revceived from master. Bye bye!
+
+ Slave[27] Sorted 162 tasks in 147.043772 seconds (mean per task 0.907678).
+
+Slave[7]: kill message revceived from master. Bye bye!
+
+ Slave[7] Sorted 161 tasks in 146.937275 seconds (mean per task 0.912654).
+
+Master[0]: message received from slave 23 [1][10000].
+Master[0]: sending KILLTAG to slave 23.
+Slave[23]: kill message revceived from master. Bye bye!
+
+ Slave[23] Sorted 159 tasks in 146.891518 seconds (mean per task 0.923846).
+
+Master[0]: message received from slave 13 [1][10000].
+Master[0]: sending KILLTAG to slave 13.
+Master[0]: message received from slave 29 [1][10000].
+Master[0]: sending KILLTAG to slave 29.
+Slave[29]: kill message revceived from master. Bye bye!
+
+ Slave[29] Sorted 161 tasks in 147.266383 seconds (mean per task 0.914698).
+
+Slave[13]: kill message revceived from master. Bye bye!
+
+ Slave[13] Sorted 160 tasks in 147.269684 seconds (mean per task 0.920436).
+
+Master[0]: message received from slave 3 [1][10000].
+Master[0]: sending KILLTAG to slave 3.
+Slave[3]: kill message revceived from master. Bye bye!
+
+ Slave[3] Sorted 161 tasks in 147.092556 seconds (mean per task 0.913618).
+
+Master[0]: message received from slave 4 [1][10000].
+Master[0]: sending KILLTAG to slave 4.
+Master[0]: message received from slave 6 [1][10000].
+Master[0]: sending KILLTAG to slave 6.
+Master[0]: message received from slave 12 [1][10000].
+Master[0]: sending KILLTAG to slave 12.
+Slave[4]: kill message revceived from master. Bye bye!
+
+Slave[6]: kill message revceived from master. Bye bye!
+
+ Slave[6] Sorted 163 tasks in 146.891739 seconds (mean per task 0.901176).
+
+ Slave[4] Sorted 162 tasks in 147.242140 seconds (mean per task 0.908902).
+
+Slave[12]: kill message revceived from master. Bye bye!
+
+ Slave[12] Sorted 163 tasks in 147.057922 seconds (mean per task 0.902196).
+
+Master[0]: message received from slave 26 [1][10000].
+Master[0]: sending KILLTAG to slave 26.
+Slave[26]: kill message revceived from master. Bye bye!
+
+ Slave[26] Sorted 160 tasks in 147.363222 seconds (mean per task 0.921020).
+
+Master[0]: message received from slave 25 [1][10000].
+Master[0]: sending KILLTAG to slave 25.
+Slave[25]: kill message revceived from master. Bye bye!
+
+ Slave[25] Sorted 162 tasks in 147.450841 seconds (mean per task 0.910190).
+
+Master[0]: message received from slave 2 [1][10000].
+Master[0]: sending KILLTAG to slave 2.
+Slave[2]: kill message revceived from master. Bye bye!
+
+ Slave[2] Sorted 162 tasks in 147.310856 seconds (mean per task 0.909326).
+
+
+Execution time in seconds: 150.859998
+
