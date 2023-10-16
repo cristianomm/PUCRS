@@ -194,24 +194,63 @@ class Model:
                 y_batch = y_train[start:end]
 
                 y_hat = self.__forward(x_batch)
+
+                if self.loss_function == LossFunction.BCE:
+                    loss = LossFunctions.bce(y_batch, y_hat)
+                elif self.loss_function == LossFunction.MSE:
+                    loss = LossFunctions.mse(y_batch, y_hat)
+                elif self.loss_function == LossFunction.MAE:
+                    loss = LossFunctions.mae(y_batch, y_hat)
+                elif self.loss_function == LossFunction.CROSSENTROPY:
+                    loss = LossFunctions.crossentropy(y_batch, y_hat)
                 
                 self.__backward(x_batch, y_batch, y_hat, learning_rate)
 
-            print(f'Epoch {epoch+1}/{epochs} - loss: {self.loss_function(y_batch, y_hat)}')
+            print(f'Epoch {epoch+1}/{epochs} - loss: {loss}')
 
     def __forward(self, x_batch):
         for i, layer in enumerate(self.layers):
             if i==0:
-                for neuron in layer.units:
-                    neuron.compute(x_batch)
+                for batch in x_batch:
+                    for neuron in layer.units:
+                        for value in batch:
+                            neuron.compute(value)
             else:
                 for neuron in layer.units:
                     neuron.compute(self.layers[i-1].output)
 
-        return x_batch
+        return self.layers[-1].output
 
     def __backward(self, x_batch, y_batch, y_hat, learning_rate):
-        pass
+        m = y_batch.shape[0]
+
+        dA = np.divide(y_batch, y_hat) - np.divide(1 - y_batch, 1 - y_hat)
+
+        for i, layer in reversed(list(enumerate(self.layers))):
+            if layer.activation_function == ActivationFunction.SIGMOID:
+                dZ = dA * ActivationFunctions.sigmoid_derivative(y_hat)
+            elif layer.activation_function == ActivationFunction.TANH:
+                dZ = dA * ActivationFunctions.tanh_derivative(y_hat)
+            elif layer.activation_function == ActivationFunction.RELU:
+                dZ = dA * ActivationFunctions.relu_derivative(y_hat)
+            elif layer.activation_function == ActivationFunction.LEAKY_RELU:
+                dZ = dA * ActivationFunctions.leaky_relu_derivative(y_hat)
+            elif layer.activation_function == ActivationFunction.SOFTMAX:
+                dZ = dA * ActivationFunctions.softmax_derivative(y_hat)
+            elif layer.activation_function == ActivationFunction.LINEAR:
+                dZ = dA * ActivationFunctions.linear_derivative(y_hat)
+
+            dW = 1/m * np.dot(dZ, x_batch.T)
+            db = 1/m * np.sum(dZ, axis=1, keepdims=True)
+
+            if self.optimizer == Optimizer.SGD:
+                for neuron in layer.units:
+                    neuron.weights, neuron.bias = Optimizers.sgd(learning_rate, neuron.weights, neuron.bias, dW, db)
+            elif self.optimizer == Optimizer.ADAM:
+                for neuron in layer.units:
+                    neuron.weights, neuron.bias, neuron.m, neuron.v, neuron.t = Optimizers.adam(learning_rate, neuron.weights, neuron.bias, dW, db, neuron.m, neuron.v, neuron.t)
+
+            dA = np.dot(dW.T, dZ)
 
     def predict(self, x_test):
         pass
