@@ -176,14 +176,21 @@ class Neuron:
     
 
 class Model:
-    def __init__(self, loss_function, optimizer, regularizer):
+    def __init__(self, loss_function, optimizer, regularizer, dropout_rate=0.0):
         self.layers = []
         self.loss_function = loss_function
         self.optimizer = optimizer
         self.regularizer = regularizer
+        self.dropout_rate = dropout_rate
 
     def fit(self, x_train, y_train, epochs, batch_size):
 
+        pass
+
+    def __forward(self, x):
+        pass
+
+    def __backward(self, y):
         pass
 
     def predict(self, x_test):
