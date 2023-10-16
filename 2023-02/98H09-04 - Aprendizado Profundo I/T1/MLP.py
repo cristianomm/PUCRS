@@ -183,14 +183,34 @@ class Model:
         self.regularizer = regularizer
         self.dropout_rate = dropout_rate
 
-    def fit(self, x_train, y_train, epochs, batch_size):
+    def fit(self, x_train, y_train, epochs, batch_size, learning_rate):
 
-        pass
+        for epoch in range(epochs):
+            for batch in range(batch_size):
+                start = batch * batch_size
+                end = start + batch_size
 
-    def __forward(self, x):
-        pass
+                x_batch = x_train[start:end]
+                y_batch = y_train[start:end]
 
-    def __backward(self, y):
+                y_hat = self.__forward(x_batch)
+                
+                self.__backward(x_batch, y_batch, y_hat, learning_rate)
+
+            print(f'Epoch {epoch+1}/{epochs} - loss: {self.loss_function(y_batch, y_hat)}')
+
+    def __forward(self, x_batch):
+        for i, layer in enumerate(self.layers):
+            if i==0:
+                for neuron in layer.units:
+                    neuron.compute(x_batch)
+            else:
+                for neuron in layer.units:
+                    neuron.compute(self.layers[i-1].output)
+
+        return x_batch
+
+    def __backward(self, x_batch, y_batch, y_hat, learning_rate):
         pass
 
     def predict(self, x_test):
