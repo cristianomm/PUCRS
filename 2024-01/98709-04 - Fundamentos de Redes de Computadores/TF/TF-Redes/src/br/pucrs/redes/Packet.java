@@ -2,13 +2,21 @@ package br.pucrs.redes;
 
 import java.util.Arrays;
 
-public class Package {
+public class Packet {
 	
 	private int sequence;
-	private String crc;
+	private int confirmSequence;
+	private long crc;
 	private long length;
+	
+	/**
+	 * a - ack
+	 * i - info
+	 * d - data
+	 * 
+	 */
 	private String info;
-	private byte data[];
+	private byte[] data;
 	
 	public int getSequence() {
 		return sequence;
@@ -16,10 +24,16 @@ public class Package {
 	public void setSequence(int sequence) {
 		this.sequence = sequence;
 	}
-	public String getCrc() {
+	public int getConfirmSequence() {
+		return confirmSequence;
+	}
+	public void setConfirmSequence(int confirmSequence) {
+		this.confirmSequence = confirmSequence;
+	}
+	public long getCrc() {
 		return crc;
 	}
-	public void setCrc(String crc) {
+	public void setCrc(long crc) {
 		this.crc = crc;
 	}
 	public long getLength() {
@@ -43,11 +57,7 @@ public class Package {
 	
 	@Override
 	public String toString() {
-		return "Package [sequence=" + sequence + ", " 
-				+ (crc != null ? "crc=" + crc + ", " : "") 
-				+ "length=" + length + ", " 
-				+ (info != null ? "info=" + info + ", " : "") 
-				+ (data != null ? "data=" + Arrays.toString(data) : "") + "]";
+		return "#" + sequence + "#" + confirmSequence + "#" + (info != null ? info : " ") + "#" + (data != null ? Arrays.toString(data) : "") + "#" + crc;
 	}
 
 }
