@@ -10,13 +10,23 @@ public class Packet {
 	private long length;
 	
 	/**
+	 * s - system
 	 * a - ack
 	 * i - info
 	 * d - data
 	 * 
 	 */
-	private String info;
+	private char type;
 	private byte[] data;
+	
+	public Packet() {
+		this.data = new byte[10];
+	}
+	
+	public Packet(char type, byte[] data) {
+		this.type = type;
+		this.data = data;
+	}
 	
 	public int getSequence() {
 		return sequence;
@@ -42,11 +52,11 @@ public class Packet {
 	public void setLength(long length) {
 		this.length = length;
 	}
-	public String getInfo() {
-		return info;
+	public char getType() {
+		return type;
 	}
-	public void setInfo(String info) {
-		this.info = info;
+	public void setType(char type) {
+		this.type = type;
 	}
 	public byte[] getData() {
 		return data;
@@ -57,7 +67,7 @@ public class Packet {
 	
 	@Override
 	public String toString() {
-		return "#" + sequence + "#" + confirmSequence + "#" + (info != null ? info : " ") + "#" + (data != null ? Arrays.toString(data) : "") + "#" + crc;
+		return "#" + sequence + "#" + confirmSequence + "#" + type + "#" + (data != null ? Arrays.toString(data) : "") + "#" + crc;
 	}
 
 }
