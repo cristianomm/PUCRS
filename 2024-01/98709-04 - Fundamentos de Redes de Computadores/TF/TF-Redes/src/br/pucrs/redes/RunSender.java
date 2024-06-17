@@ -2,7 +2,7 @@ package br.pucrs.redes;
 
 import java.net.SocketException;
 
-public class Tests {
+public class RunSender {
 	public static void main(String[] args) throws SocketException {
 
 		String file = "D:/Disco/run_loaders.bat";
