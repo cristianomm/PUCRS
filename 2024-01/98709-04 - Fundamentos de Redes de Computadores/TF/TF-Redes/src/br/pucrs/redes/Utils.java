@@ -9,20 +9,18 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 import java.util.logging.Logger;
 import java.util.zip.CRC32;
 import java.util.zip.Checksum;
 
 public class Utils {
-
-	private Random rand;
+	
 	private int dataLength;
 	private int packetLength;
 	private static Logger logger = Logger.getLogger(Utils.class.getName());
 
 	public Utils(int packetLength, int dataLength) {
-		this.rand = new Random();
+		
 		this.dataLength = dataLength;
 		this.packetLength = packetLength;
 	}
@@ -86,6 +84,11 @@ public class Utils {
 		return checksum.getValue();
 	}
 
+	/**
+	 * faz a criacao dos pacotes contendo informacao sobre o arquivo enviado
+	 * @param infoData
+	 * @return
+	 */
 	private List<Packet> createInfoPackets(String infoData){
 		List<Packet> packets = new ArrayList<>();
 
@@ -110,6 +113,11 @@ public class Utils {
 		return packets;
 	}
 
+	/**
+	 * Divide o arquivo em pacotes, gerando uma lista de pacotes para serem enviados
+	 * @param fileName
+	 * @return
+	 */
 	public List<Packet> splitFile(String fileName) {
 		List<Packet> packets = new ArrayList<>();
 
@@ -120,10 +128,11 @@ public class Utils {
 				FileInputStream fis = new FileInputStream(file);
 
 				//gera o num inicial de seq aleatorio para os pacotes
-				int sequence = rand.nextInt(0, Integer.MAX_VALUE);
-
+				int sequence = 0;
+				
 				//adiciona pacote com informacoes sobre o arquivo
 				//divide as  informacoes em partes de 10 bytes para serem enviadas na area de dados 
+				fileName = file.getName();//fileName.substring(fileName.lastIndexOf('/')+1, fileName.length());
 				List<Packet> infoPackets = createInfoPackets(fileName);
 
 				//ajusta os ns de sequencia dos pacotes de informacao
@@ -147,12 +156,16 @@ public class Utils {
 					pack.setType('d');
 					pack.setData(data);
 					pack.setCrc(calcCRC(data));
-					//System.out.println(pack);
 
 					packets.add(pack);
 				}
 
 				fis.close();
+								
+				Packet packet = new Packet('i', "ef".getBytes());
+				packet.setSequence(sequence++);
+				packets.add(packet);
+				
 			}
 
 		}catch (Exception e) {
@@ -162,27 +175,40 @@ public class Utils {
 		return packets;
 	}
 
-	public void buildFile(List<Packet> packets) {
+	/**
+	 * Faz a uniao de todos os pacotes recebidos para gerar um arquivo
+	 * @param path
+	 * @param packets
+	 * @throws IOException
+	 */
+	public void buildFile(String path, List<Packet> packets) throws IOException {
 
-		String fileName = "";
+		String fileName = path + "/received_";
 		
 		//ajusta o nome do arquivo
 		for(Packet packet : packets) {
-			if (packet.getType() == 'i') {
-				fileName += new String(packet.getData());
+			String partName = new String(packet.getData()).trim();
+			if (packet.getType() == 'i' && !partName.equalsIgnoreCase("ef")) {
+				fileName += partName;
 			}
 		}
-		
-		//
-		try(FileOutputStream fos = new FileOutputStream(fileName)) {
-
+				
+		try {
+			
+			File file = new File(fileName);
+			file.createNewFile();
+			FileOutputStream fos = new FileOutputStream(file);
+			logger.info("saving file: " + fileName);
 			for(Packet packet : packets) {
 				if (packet.getType() == 'd') {
 					fos.write(packet.getData());
 				}
 			}
 			
+			fos.close();
+			
 		}catch (Exception e) {
+			e.printStackTrace();
 			logger.severe("error creating file " + fileName + ": " + e.getMessage());
 		}
 

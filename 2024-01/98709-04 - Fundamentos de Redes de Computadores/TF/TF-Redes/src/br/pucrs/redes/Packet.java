@@ -7,7 +7,6 @@ public class Packet {
 	private int sequence;
 	private int confirmSequence;
 	private long crc;
-	private long length;
 	
 	/**
 	 * s - system
@@ -45,12 +44,6 @@ public class Packet {
 	}
 	public void setCrc(long crc) {
 		this.crc = crc;
-	}
-	public long getLength() {
-		return length;
-	}
-	public void setLength(long length) {
-		this.length = length;
 	}
 	public char getType() {
 		return type;
