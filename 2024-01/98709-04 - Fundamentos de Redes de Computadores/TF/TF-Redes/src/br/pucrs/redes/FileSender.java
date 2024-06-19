@@ -244,34 +244,6 @@ public class FileSender implements Runnable {
 		}
 	}
 
-
-
-	/**
-	 * Envia a lista de pacotes
-	 * @param packets
-	 */
-	/*
-	private void send(List<Packet> packets) {
-
-		try {
-			if(connected) {
-				int window = 1;
-				int segmentCount = 0;
-				for(Packet pack : packets) {
-					if(sendPacket(pack)) {
-						segmentCount++;
-					}
-					Thread.sleep(200);
-				}
-
-				disconnect();
-			}
-		}catch(Exception e) {
-			logger.severe(e.getMessage());
-		}
-	}
-	 */
-
 	public void send(String fileName) {
 
 		try {
