@@ -1,0 +1,18 @@
+#,Dia;Data;Hora;Descrição
+1;SEG;26/02/2024;LM 19:15 - 20:45;Plano de ensino (conteúdo programático, cronograma, forma e datas de avaliação, bibliografia).
+2;QUA;28/02/2024;LM 19:15 - 20:45;Introducao a PLN: Conceito, Histórico e Niveis de conhecimento linguistico
+3;SEG;04/03/2024;LM 19:15 - 20:45;Introdução a Corpus
+4;QUA;06/03/2024;LM 19:15 - 20:45;Tarefas: Classificação de Texto e Analise de Sentimentos
+5;SEG;11/03/2024;LM 19:15 - 20:45;Atividade: datasets para classificação de texto
+6;QUA;13/03/2024;LM 19:15 - 20:45;Tarefas: Extração de Informações - NER. Atividade: testes com Spacy e ChatGPT, busca de datasets para NER
+7;SEG;18/03/2024;LM 19:15 - 20:45;Atividade com tarefas e corpus
+8;QUA;20/03/2024;LM 19:15 - 20:45;Atividade com tarefas e corpus
+9;SEG;25/03/2024;LM 19:15 - 20:45;Tarefas: Extração de Informações - Extração de Relações
+10;QUA;27/03/2024;LM 19:15 - 20:45;Introdução a Pré-processamento
+11;SEG;01/04/2024;LM 19:15 - 20:45;Exercícios de pré-processamento de Texto
+12;QUA;03/04/2024;LM 19:15 - 20:45;Pré-processamento de texto: anotação linguistica
+13;SEG;08/04/2024;LM 19:15 - 20:45;Pré-processamento de texto: anotação linguistica
+14;QUA;10/04/2024;LM 19:15 - 20:45;Exercícios para P1
+15;SEG;15/04/2024;LM 19:15 - 20:45;Prova P1
+
+

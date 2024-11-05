@@ -1,9 +1,14 @@
 2023-01/98H01-04 - Coleta, Preparação e Análise de Dados/Trabalhos/T2/data/symbols.csv
 2023-01/98H01-04 - Coleta, Preparação e Análise de Dados/Trabalhos/T2_CristianoMMartins.zip
-*.jpg
-*.jpg
 *.png
 *.jpeg
 *.joblib
-2023-01/98721-04 - Introdução à Visão Computacional/Trabalhos/T1/T1_CristianoMMartins.zip
+/2023-01/98713-04 - Fundamentos de Processamento Paralelo e Distribuido/Trabalhos/T2-FPPD/bin
+/2024-01/98709-04 - Fundamentos de Redes de Computadores/TF/TF-Redes/bin
+*.class
+*.zip
 *.pyc
+*.parquet
+*.csv
+/2023-01/98713-04 - Fundamentos de Processamento Paralelo e Distribuido/Trabalhos/T2-FPPD/bin
+2023-01/98721-04 - Introdução à Visão Computacional/Trabalhos/T1/T1_CristianoMMartins.zip
