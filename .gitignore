@@ -23,3 +23,5 @@
 *.class
 *.zip
 *.zip
+*.parquet
+*.csv
